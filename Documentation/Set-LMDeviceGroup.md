@@ -15,7 +15,7 @@ Updates a LogicMonitor device group configuration.
 ### Id-ParentGroupId (Default)
 ```
 Set-LMDeviceGroup -Id <String> [-NewName <String>] [-Description <String>] [-Properties <Hashtable>]
- [-Extra <Object>] [-DefaultCollectorId <Int32>] [-DefaultAutoBalancedCollectorGroupId <Int32>]
+ [-Extra <Object>] [-ExtraPatch <Object>] [-DefaultCollectorId <Int32>] [-DefaultAutoBalancedCollectorGroupId <Int32>]
  [-DefaultCollectorGroupId <Int32>] [-PropertiesMethod <String>] [-DisableAlerting <Boolean>]
  [-EnableNetFlow <Boolean>] [-AppliesTo <String>] [-ParentGroupId <Int32>] [-ProgressAction <ActionPreference>]
  [-WhatIf] [-Confirm] [<CommonParameters>]
@@ -24,7 +24,7 @@ Set-LMDeviceGroup -Id <String> [-NewName <String>] [-Description <String>] [-Pro
 ### Id-ParentGroupName
 ```
 Set-LMDeviceGroup -Id <String> [-NewName <String>] [-Description <String>] [-Properties <Hashtable>]
- [-Extra <Object>] [-DefaultCollectorId <Int32>] [-DefaultAutoBalancedCollectorGroupId <Int32>]
+ [-Extra <Object>] [-ExtraPatch <Object>] [-DefaultCollectorId <Int32>] [-DefaultAutoBalancedCollectorGroupId <Int32>]
  [-DefaultCollectorGroupId <Int32>] [-PropertiesMethod <String>] [-DisableAlerting <Boolean>]
  [-EnableNetFlow <Boolean>] [-AppliesTo <String>] [-ParentGroupName <String>]
  [-ProgressAction <ActionPreference>] [-WhatIf] [-Confirm] [<CommonParameters>]
@@ -33,7 +33,7 @@ Set-LMDeviceGroup -Id <String> [-NewName <String>] [-Description <String>] [-Pro
 ### Name-ParentGroupName
 ```
 Set-LMDeviceGroup -Name <String> [-NewName <String>] [-Description <String>] [-Properties <Hashtable>]
- [-Extra <Object>] [-DefaultCollectorId <Int32>] [-DefaultAutoBalancedCollectorGroupId <Int32>]
+ [-Extra <Object>] [-ExtraPatch <Object>] [-DefaultCollectorId <Int32>] [-DefaultAutoBalancedCollectorGroupId <Int32>]
  [-DefaultCollectorGroupId <Int32>] [-PropertiesMethod <String>] [-DisableAlerting <Boolean>]
  [-EnableNetFlow <Boolean>] [-AppliesTo <String>] [-ParentGroupName <String>]
  [-ProgressAction <ActionPreference>] [-WhatIf] [-Confirm] [<CommonParameters>]
@@ -42,7 +42,7 @@ Set-LMDeviceGroup -Name <String> [-NewName <String>] [-Description <String>] [-P
 ### Name-ParentGroupId
 ```
 Set-LMDeviceGroup -Name <String> [-NewName <String>] [-Description <String>] [-Properties <Hashtable>]
- [-Extra <Object>] [-DefaultCollectorId <Int32>] [-DefaultAutoBalancedCollectorGroupId <Int32>]
+ [-Extra <Object>] [-ExtraPatch <Object>] [-DefaultCollectorId <Int32>] [-DefaultAutoBalancedCollectorGroupId <Int32>]
  [-DefaultCollectorGroupId <Int32>] [-PropertiesMethod <String>] [-DisableAlerting <Boolean>]
  [-EnableNetFlow <Boolean>] [-AppliesTo <String>] [-ParentGroupId <Int32>] [-ProgressAction <ActionPreference>]
  [-WhatIf] [-Confirm] [<CommonParameters>]
@@ -57,6 +57,12 @@ The Set-LMDeviceGroup function modifies an existing device group in LogicMonitor
 ```
 Set-LMDeviceGroup -Id 123 -NewName "Updated Group" -Description "New description"
 Updates the device group with ID 123 with a new name and description.
+```
+
+### EXAMPLE 2
+```
+# Enable local collectors for EC2 without reconstructing the entire extra
+Set-LMDeviceGroup -Id 9404 -ExtraPatch @{ services = @{ EC2 = @{ normalCollectorConfig = @{ enable = $true } } } }
 ```
 
 ## PARAMETERS
@@ -150,6 +156,21 @@ Accept wildcard characters: False
 
 ### -Extra
 Specifies a object of extra properties for the device group. Used for LM Cloud resource groups
+
+```yaml
+Type: Object
+Parameter Sets: (All)
+Aliases:
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ExtraPatch
+Specifies a partial object to be merged into the existing `extra` for the device group. This is useful when you only want to change a nested flag without having to supply the entire `extra` tree. The cmdlet fetches the current `extra`, deep-merges your patch, and sends the merged result.
 
 ```yaml
 Type: Object

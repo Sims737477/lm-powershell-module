@@ -74,6 +74,9 @@ function Set-LMDeviceGroup {
 
         [Object]$Extra,
 
+        # A partial extra object to merge into the current group's extra
+        [Object]$ExtraPatch,
+
         [Nullable[Int]]$DefaultCollectorId,
 
         [Nullable[Int]]$DefaultAutoBalancedCollectorGroupId,
@@ -139,6 +142,19 @@ function Set-LMDeviceGroup {
             }
             else {
                 $Message = "Id: $Id"
+            }
+
+            # If ExtraPatch was provided, fetch current group's extra and deep-merge
+            if ($PSBoundParameters.ContainsKey('ExtraPatch')) {
+                $current = Get-LMDeviceGroup -Id $Id
+                $currentExtraObj = $current.extra
+                if ($currentExtraObj -is [string]) {
+                    $currentExtraObj = $currentExtraObj | ConvertFrom-Json
+                }
+                $baseHash  = ConvertTo-HashtableDeep -InputObject $currentExtraObj
+                $patchHash = ConvertTo-HashtableDeep -InputObject $ExtraPatch
+                $merged    = Merge-HashtableDeep -Base $baseHash -Patch $patchHash -ArrayStrategy 'Replace'
+                $Extra     = $merged
             }
 
             $Data = @{
