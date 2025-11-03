@@ -178,7 +178,7 @@ This example builds a filter and returns the expression as a string.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>AutoUpdateModuleVersion</maml:name>
           <maml:description>
-            <maml:para>{{ Fill AutoUpdateModuleVersion Description }}</maml:para>
+            <maml:para>Automatically update the Logic.Monitor module to the latest version if available</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -189,7 +189,7 @@ This example builds a filter and returns the expression as a string.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>SkipVersionCheck</maml:name>
           <maml:description>
-            <maml:para>{{ Fill SkipVersionCheck Description }}</maml:para>
+            <maml:para>Skip checking for newer versions of the Logic.Monitor module</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -272,7 +272,7 @@ This example builds a filter and returns the expression as a string.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>AutoUpdateModuleVersion</maml:name>
           <maml:description>
-            <maml:para>{{ Fill AutoUpdateModuleVersion Description }}</maml:para>
+            <maml:para>Automatically update the Logic.Monitor module to the latest version if available</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -283,7 +283,7 @@ This example builds a filter and returns the expression as a string.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>SkipVersionCheck</maml:name>
           <maml:description>
-            <maml:para>{{ Fill SkipVersionCheck Description }}</maml:para>
+            <maml:para>Skip checking for newer versions of the Logic.Monitor module</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -365,7 +365,7 @@ This example builds a filter and returns the expression as a string.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>AutoUpdateModuleVersion</maml:name>
           <maml:description>
-            <maml:para>{{ Fill AutoUpdateModuleVersion Description }}</maml:para>
+            <maml:para>Automatically update the Logic.Monitor module to the latest version if available</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -376,7 +376,7 @@ This example builds a filter and returns the expression as a string.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>SkipVersionCheck</maml:name>
           <maml:description>
-            <maml:para>{{ Fill SkipVersionCheck Description }}</maml:para>
+            <maml:para>Skip checking for newer versions of the Logic.Monitor module</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -458,7 +458,7 @@ This example builds a filter and returns the expression as a string.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>AutoUpdateModuleVersion</maml:name>
           <maml:description>
-            <maml:para>{{ Fill AutoUpdateModuleVersion Description }}</maml:para>
+            <maml:para>Automatically update the Logic.Monitor module to the latest version if available</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -469,7 +469,7 @@ This example builds a filter and returns the expression as a string.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>SkipVersionCheck</maml:name>
           <maml:description>
-            <maml:para>{{ Fill SkipVersionCheck Description }}</maml:para>
+            <maml:para>Skip checking for newer versions of the Logic.Monitor module</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -613,7 +613,7 @@ This example builds a filter and returns the expression as a string.</dev:code>
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>AutoUpdateModuleVersion</maml:name>
         <maml:description>
-          <maml:para>{{ Fill AutoUpdateModuleVersion Description }}</maml:para>
+          <maml:para>Automatically update the Logic.Monitor module to the latest version if available</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
         <dev:type>
@@ -625,7 +625,7 @@ This example builds a filter and returns the expression as a string.</dev:code>
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>SkipVersionCheck</maml:name>
         <maml:description>
-          <maml:para>{{ Fill SkipVersionCheck Description }}</maml:para>
+          <maml:para>Skip checking for newer versions of the Logic.Monitor module</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
         <dev:type>
@@ -3720,7 +3720,7 @@ Export-LMLogicModule -LogicModuleName "SNMP_Network_Interfaces" -Type "datasourc
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="True (ByValue)" position="1" aliases="DatasourceName">
           <maml:name>DatasourceNames</maml:name>
           <maml:description>
-            <maml:para>{{ Fill DatasourceNames Description }}</maml:para>
+            <maml:para>Array of datasource names to search for in dashboard widgets. Can also use the alias DatasourceName.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String[]</command:parameterValue>
           <dev:type>
@@ -3732,7 +3732,7 @@ Export-LMLogicModule -LogicModuleName "SNMP_Network_Interfaces" -Type "datasourc
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="2" aliases="none">
           <maml:name>GroupPathSearchString</maml:name>
           <maml:description>
-            <maml:para>{{ Fill GroupPathSearchString Description }}</maml:para>
+            <maml:para>Wildcard search string to filter dashboards by group path. Defaults to "*" (all dashboards).</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -3759,7 +3759,7 @@ Export-LMLogicModule -LogicModuleName "SNMP_Network_Interfaces" -Type "datasourc
       <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="True (ByValue)" position="1" aliases="DatasourceName">
         <maml:name>DatasourceNames</maml:name>
         <maml:description>
-          <maml:para>{{ Fill DatasourceNames Description }}</maml:para>
+          <maml:para>Array of datasource names to search for in dashboard widgets. Can also use the alias DatasourceName.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String[]</command:parameterValue>
         <dev:type>
@@ -3771,7 +3771,7 @@ Export-LMLogicModule -LogicModuleName "SNMP_Network_Interfaces" -Type "datasourc
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="2" aliases="none">
         <maml:name>GroupPathSearchString</maml:name>
         <maml:description>
-          <maml:para>{{ Fill GroupPathSearchString Description }}</maml:para>
+          <maml:para>Wildcard search string to filter dashboards by group path. Defaults to "*" (all dashboards).</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -32480,7 +32480,7 @@ Import-LMDashboard -GithubUserRepo "username/repo" -ParentGroupName "MyDashboard
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>FilePath</maml:name>
           <maml:description>
-            <maml:para>{{ Fill FilePath Description }}</maml:para>
+            <maml:para>Path to the CSV file containing device groups to import. Required for Import parameter set.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -32492,7 +32492,7 @@ Import-LMDashboard -GithubUserRepo "username/repo" -ParentGroupName "MyDashboard
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>PassThru</maml:name>
           <maml:description>
-            <maml:para>{{ Fill PassThru Description }}</maml:para>
+            <maml:para>Returns the imported device group objects. By default, no output is returned.</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -32518,7 +32518,7 @@ Import-LMDashboard -GithubUserRepo "username/repo" -ParentGroupName "MyDashboard
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>GenerateExampleCSV</maml:name>
           <maml:description>
-            <maml:para>{{ Fill GenerateExampleCSV Description }}</maml:para>
+            <maml:para>Generates a sample CSV file to use as a template for importing device groups.</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -32544,7 +32544,7 @@ Import-LMDashboard -GithubUserRepo "username/repo" -ParentGroupName "MyDashboard
       <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>FilePath</maml:name>
         <maml:description>
-          <maml:para>{{ Fill FilePath Description }}</maml:para>
+          <maml:para>Path to the CSV file containing device groups to import. Required for Import parameter set.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -32556,7 +32556,7 @@ Import-LMDashboard -GithubUserRepo "username/repo" -ParentGroupName "MyDashboard
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>GenerateExampleCSV</maml:name>
         <maml:description>
-          <maml:para>{{ Fill GenerateExampleCSV Description }}</maml:para>
+          <maml:para>Generates a sample CSV file to use as a template for importing device groups.</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
         <dev:type>
@@ -32568,7 +32568,7 @@ Import-LMDashboard -GithubUserRepo "username/repo" -ParentGroupName "MyDashboard
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>PassThru</maml:name>
         <maml:description>
-          <maml:para>{{ Fill PassThru Description }}</maml:para>
+          <maml:para>Returns the imported device group objects. By default, no output is returned.</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
         <dev:type>
@@ -32933,10 +32933,11 @@ Import-LMExchangeModule -LMExchangeId "LM12345"</dev:code>
       <command:verb>Import</command:verb>
       <command:noun>LMLogicModule</command:noun>
       <maml:description>
-        <maml:para>Imports a LogicModule into LogicMonitor.</maml:para>
+        <maml:para>[DEPRECATED] Imports a LogicModule into LogicMonitor using legacy endpoints.</maml:para>
       </maml:description>
     </command:details>
     <maml:description>
+      <maml:para>DEPRECATED: This function uses legacy import endpoints and will be removed in a future version.  Please use Import-LMLogicModuleFromFile instead, which uses the newer XML/JSON import endpoints with better error handling and additional features.</maml:para>
       <maml:para>The Import-LMLogicModule function imports a LogicModule from a file path or file data. Supports various module types including datasource, propertyrules, eventsource, topologysource, configsource, logsource, functions, and oids.</maml:para>
     </maml:description>
     <command:syntax>
@@ -33127,6 +33128,7 @@ Import-LMExchangeModule -LMExchangeId "LM12345"</dev:code>
     </command:returnValues>
     <maml:alertSet>
       <maml:alert>
+        <maml:para>DEPRECATED: This cmdlet will be removed in a future version. Use Import-LMLogicModuleFromFile instead.</maml:para>
         <maml:para>You must run Connect-LMAccount before running this command. Requires PowerShell version 6.1 or higher.</maml:para>
       </maml:alert>
     </maml:alertSet>
@@ -33143,6 +33145,320 @@ Import-LMLogicModule -FilePath "C:\LogicModules\datasource.xml" -Type "datasourc
         <maml:title>-------------------------- EXAMPLE 2 --------------------------</maml:title>
         <dev:code>#Import a property rules module
 Import-LMLogicModule -File $fileData -Type "propertyrules"</dev:code>
+        <dev:remarks>
+          <maml:para></maml:para>
+        </dev:remarks>
+      </command:example>
+    </command:examples>
+    <command:relatedLinks />
+  </command:command>
+  <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
+    <command:details>
+      <command:name>Import-LMLogicModuleFromFile</command:name>
+      <command:verb>Import</command:verb>
+      <command:noun>LMLogicModuleFromFile</command:noun>
+      <maml:description>
+        <maml:para>Imports a LogicModule into LogicMonitor using the V2 import endpoints.</maml:para>
+      </maml:description>
+    </command:details>
+    <maml:description>
+      <maml:para>The Import-LMLogicModuleFromFile function imports a LogicModule from a file path or file data using the new XML and JSON import endpoints. Supports various module types including datasources, configsources, eventsources, batchjobs, logsources, oids, topologysources, functions, and diagnosticsources.</maml:para>
+    </maml:description>
+    <command:syntax>
+      <command:syntaxItem>
+        <maml:name>Import-LMLogicModuleFromFile</maml:name>
+        <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+          <maml:name>FilePath</maml:name>
+          <maml:description>
+            <maml:para>The path to the file containing the LogicModule to import. The function will read the file content automatically.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+          <dev:type>
+            <maml:name>String</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>None</dev:defaultValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+          <maml:name>Type</maml:name>
+          <maml:description>
+            <maml:para>The type of LogicModule. Valid values are "datasources", "configsources", "eventsources", "batchjobs", "logsources", "oids", "topologysources", "functions", "diagnosticsources". Defaults to "datasources".</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+          <dev:type>
+            <maml:name>String</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>Datasources</dev:defaultValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+          <maml:name>Format</maml:name>
+          <maml:description>
+            <maml:para>The format of the LogicModule file. Valid values are "xml" or "json". Defaults to "json".</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+          <dev:type>
+            <maml:name>String</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>Json</dev:defaultValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+          <maml:name>FieldsToPreserve</maml:name>
+          <maml:description>
+            <maml:para>Optional. Comma-separated list of fields to preserve during import. Only applies to JSON imports. Defaults to preserving none of the fields. Valid values are "NAME", "APPLIES_TO_SCRIPT", "COLLECTION_INTERVAL", "ACTIVE_DISCOVERY_INTERVAL", "ACTIVE_DISCOVERY_FILTERS", "MODULE_GROUP", "DISPLAY_NAME", "USE_WILD_VALUE_AS_UUID", "DATAPOINT_ALERT_THRESHOLDS", "TAGS". "NAME" will preserve the name of the LogicModule. "APPLIES_TO_SCRIPT" will preserve the appliesToScript of the LogicModule. "COLLECTION_INTERVAL" will preserve the collectionInterval of the LogicModule. "ACTIVE_DISCOVERY_INTERVAL" will preserve the activeDiscoveryInterval of the LogicModule. "ACTIVE_DISCOVERY_FILTERS" will preserve the activeDiscoveryFilters of the LogicModule. "MODULE_GROUP" will preserve the moduleGroup of the LogicModule. "DISPLAY_NAME" will preserve the displayName of the LogicModule. "USE_WILD_VALUE_AS_UUID" will preserve the useWildValueAsUuid of the LogicModule. "DATAPOINT_ALERT_THRESHOLDS" will preserve the datapointAlertThresholds of the LogicModule. "TAGS" will preserve the tags of the LogicModule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+          <dev:type>
+            <maml:name>String</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>None</dev:defaultValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+          <maml:name>HandleConflict</maml:name>
+          <maml:description>
+            <maml:para>Optional. Specifies how to handle conflicts during import. Only applies to JSON imports. Defaults to "FORCE_OVERWRITE". Valid values are "FORCE_OVERWRITE" or "ERROR". "FORCE_OVERWRITE" will overwrite the existing LogicModule with the same name. "ERROR" will throw an error if a conflict is found.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+          <dev:type>
+            <maml:name>String</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>FORCE_OVERWRITE</dev:defaultValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="proga">
+          <maml:name>ProgressAction</maml:name>
+          <maml:description>
+            <maml:para>{{ Fill ProgressAction Description }}</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">ActionPreference</command:parameterValue>
+          <dev:type>
+            <maml:name>ActionPreference</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>None</dev:defaultValue>
+        </command:parameter>
+      </command:syntaxItem>
+      <command:syntaxItem>
+        <maml:name>Import-LMLogicModuleFromFile</maml:name>
+        <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+          <maml:name>File</maml:name>
+          <maml:description>
+            <maml:para>The raw file content of the LogicModule to import as a string. Use Get-Content with -Raw parameter to read file content properly (e.g., Get-Content 'file.json' -Raw).</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">Object</command:parameterValue>
+          <dev:type>
+            <maml:name>Object</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>None</dev:defaultValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+          <maml:name>Type</maml:name>
+          <maml:description>
+            <maml:para>The type of LogicModule. Valid values are "datasources", "configsources", "eventsources", "batchjobs", "logsources", "oids", "topologysources", "functions", "diagnosticsources". Defaults to "datasources".</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+          <dev:type>
+            <maml:name>String</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>Datasources</dev:defaultValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+          <maml:name>Format</maml:name>
+          <maml:description>
+            <maml:para>The format of the LogicModule file. Valid values are "xml" or "json". Defaults to "json".</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+          <dev:type>
+            <maml:name>String</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>Json</dev:defaultValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+          <maml:name>FieldsToPreserve</maml:name>
+          <maml:description>
+            <maml:para>Optional. Comma-separated list of fields to preserve during import. Only applies to JSON imports. Defaults to preserving none of the fields. Valid values are "NAME", "APPLIES_TO_SCRIPT", "COLLECTION_INTERVAL", "ACTIVE_DISCOVERY_INTERVAL", "ACTIVE_DISCOVERY_FILTERS", "MODULE_GROUP", "DISPLAY_NAME", "USE_WILD_VALUE_AS_UUID", "DATAPOINT_ALERT_THRESHOLDS", "TAGS". "NAME" will preserve the name of the LogicModule. "APPLIES_TO_SCRIPT" will preserve the appliesToScript of the LogicModule. "COLLECTION_INTERVAL" will preserve the collectionInterval of the LogicModule. "ACTIVE_DISCOVERY_INTERVAL" will preserve the activeDiscoveryInterval of the LogicModule. "ACTIVE_DISCOVERY_FILTERS" will preserve the activeDiscoveryFilters of the LogicModule. "MODULE_GROUP" will preserve the moduleGroup of the LogicModule. "DISPLAY_NAME" will preserve the displayName of the LogicModule. "USE_WILD_VALUE_AS_UUID" will preserve the useWildValueAsUuid of the LogicModule. "DATAPOINT_ALERT_THRESHOLDS" will preserve the datapointAlertThresholds of the LogicModule. "TAGS" will preserve the tags of the LogicModule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+          <dev:type>
+            <maml:name>String</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>None</dev:defaultValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+          <maml:name>HandleConflict</maml:name>
+          <maml:description>
+            <maml:para>Optional. Specifies how to handle conflicts during import. Only applies to JSON imports. Defaults to "FORCE_OVERWRITE". Valid values are "FORCE_OVERWRITE" or "ERROR". "FORCE_OVERWRITE" will overwrite the existing LogicModule with the same name. "ERROR" will throw an error if a conflict is found.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+          <dev:type>
+            <maml:name>String</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>FORCE_OVERWRITE</dev:defaultValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="proga">
+          <maml:name>ProgressAction</maml:name>
+          <maml:description>
+            <maml:para>{{ Fill ProgressAction Description }}</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">ActionPreference</command:parameterValue>
+          <dev:type>
+            <maml:name>ActionPreference</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>None</dev:defaultValue>
+        </command:parameter>
+      </command:syntaxItem>
+    </command:syntax>
+    <command:parameters>
+      <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+        <maml:name>FilePath</maml:name>
+        <maml:description>
+          <maml:para>The path to the file containing the LogicModule to import. The function will read the file content automatically.</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        <dev:type>
+          <maml:name>String</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>None</dev:defaultValue>
+      </command:parameter>
+      <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+        <maml:name>File</maml:name>
+        <maml:description>
+          <maml:para>The raw file content of the LogicModule to import as a string. Use Get-Content with -Raw parameter to read file content properly (e.g., Get-Content 'file.json' -Raw).</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="false">Object</command:parameterValue>
+        <dev:type>
+          <maml:name>Object</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>None</dev:defaultValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+        <maml:name>Type</maml:name>
+        <maml:description>
+          <maml:para>The type of LogicModule. Valid values are "datasources", "configsources", "eventsources", "batchjobs", "logsources", "oids", "topologysources", "functions", "diagnosticsources". Defaults to "datasources".</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        <dev:type>
+          <maml:name>String</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>Datasources</dev:defaultValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+        <maml:name>Format</maml:name>
+        <maml:description>
+          <maml:para>The format of the LogicModule file. Valid values are "xml" or "json". Defaults to "json".</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        <dev:type>
+          <maml:name>String</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>Json</dev:defaultValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+        <maml:name>FieldsToPreserve</maml:name>
+        <maml:description>
+          <maml:para>Optional. Comma-separated list of fields to preserve during import. Only applies to JSON imports. Defaults to preserving none of the fields. Valid values are "NAME", "APPLIES_TO_SCRIPT", "COLLECTION_INTERVAL", "ACTIVE_DISCOVERY_INTERVAL", "ACTIVE_DISCOVERY_FILTERS", "MODULE_GROUP", "DISPLAY_NAME", "USE_WILD_VALUE_AS_UUID", "DATAPOINT_ALERT_THRESHOLDS", "TAGS". "NAME" will preserve the name of the LogicModule. "APPLIES_TO_SCRIPT" will preserve the appliesToScript of the LogicModule. "COLLECTION_INTERVAL" will preserve the collectionInterval of the LogicModule. "ACTIVE_DISCOVERY_INTERVAL" will preserve the activeDiscoveryInterval of the LogicModule. "ACTIVE_DISCOVERY_FILTERS" will preserve the activeDiscoveryFilters of the LogicModule. "MODULE_GROUP" will preserve the moduleGroup of the LogicModule. "DISPLAY_NAME" will preserve the displayName of the LogicModule. "USE_WILD_VALUE_AS_UUID" will preserve the useWildValueAsUuid of the LogicModule. "DATAPOINT_ALERT_THRESHOLDS" will preserve the datapointAlertThresholds of the LogicModule. "TAGS" will preserve the tags of the LogicModule.</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        <dev:type>
+          <maml:name>String</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>None</dev:defaultValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+        <maml:name>HandleConflict</maml:name>
+        <maml:description>
+          <maml:para>Optional. Specifies how to handle conflicts during import. Only applies to JSON imports. Defaults to "FORCE_OVERWRITE". Valid values are "FORCE_OVERWRITE" or "ERROR". "FORCE_OVERWRITE" will overwrite the existing LogicModule with the same name. "ERROR" will throw an error if a conflict is found.</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        <dev:type>
+          <maml:name>String</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>FORCE_OVERWRITE</dev:defaultValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="proga">
+        <maml:name>ProgressAction</maml:name>
+        <maml:description>
+          <maml:para>{{ Fill ProgressAction Description }}</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="false">ActionPreference</command:parameterValue>
+        <dev:type>
+          <maml:name>ActionPreference</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>None</dev:defaultValue>
+      </command:parameter>
+    </command:parameters>
+    <command:inputTypes>
+      <command:inputType>
+        <dev:type>
+          <maml:name>None. You cannot pipe objects to this command.</maml:name>
+        </dev:type>
+        <maml:description>
+          <maml:para></maml:para>
+        </maml:description>
+      </command:inputType>
+    </command:inputTypes>
+    <command:returnValues>
+      <command:returnValue>
+        <dev:type>
+          <maml:name>Returns a success message if the import is successful.</maml:name>
+        </dev:type>
+        <maml:description>
+          <maml:para></maml:para>
+        </maml:description>
+      </command:returnValue>
+    </command:returnValues>
+    <maml:alertSet>
+      <maml:alert>
+        <maml:para>You must run Connect-LMAccount before running this command. Requires PowerShell version 6.1 or higher.</maml:para>
+        <maml:para>Note: Some module types only support specific formats: - logsources, oids, functions, diagnosticsources: JSON only</maml:para>
+        <maml:para>- Other types: Both XML and JSON supported</maml:para>
+      </maml:alert>
+    </maml:alertSet>
+    <command:examples>
+      <command:example>
+        <maml:title>-------------------------- EXAMPLE 1 --------------------------</maml:title>
+        <dev:code>#Import a datasource module from XML
+Import-LMLogicModuleFromFile -FilePath "C:\LogicModules\datasource.xml" -Type "datasources" -Format "xml"</dev:code>
+        <dev:remarks>
+          <maml:para></maml:para>
+        </dev:remarks>
+      </command:example>
+      <command:example>
+        <maml:title>-------------------------- EXAMPLE 2 --------------------------</maml:title>
+        <dev:code>#Import a logsource module from JSON with conflict handling
+Import-LMLogicModuleFromFile -FilePath "C:\LogicModules\logsource.json" -Type "logsources" -Format "json" -HandleConflict "FORCE_OVERWRITE"</dev:code>
+        <dev:remarks>
+          <maml:para></maml:para>
+        </dev:remarks>
+      </command:example>
+      <command:example>
+        <maml:title>-------------------------- EXAMPLE 3 --------------------------</maml:title>
+        <dev:code>#Import an eventsource from file data (read file content first with -Raw parameter)
+$fileData = Get-Content -Path "C:\LogicModules\eventsource.xml" -Raw
+Import-LMLogicModuleFromFile -File $fileData -Type "eventsources" -Format "xml"</dev:code>
+        <dev:remarks>
+          <maml:para></maml:para>
+        </dev:remarks>
+      </command:example>
+      <command:example>
+        <maml:title>-------------------------- EXAMPLE 4 --------------------------</maml:title>
+        <dev:code>#Import with fields to preserve
+Import-LMLogicModuleFromFile -FilePath "C:\LogicModules\datasource.json" -Type "datasources" -Format "json" -FieldsToPreserve "description,appliesTo"</dev:code>
         <dev:remarks>
           <maml:para></maml:para>
         </dev:remarks>
@@ -36011,7 +36327,7 @@ Invoke-LMDeviceConfigSourceCollection -Id 456 -DatasourceId 789 -InstanceId "123
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>ListDuplicates</maml:name>
           <maml:description>
-            <maml:para>{{ Fill ListDuplicates Description }}</maml:para>
+            <maml:para>Lists duplicate devices found based on the specified criteria. Required for List parameter set.</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -36022,7 +36338,7 @@ Invoke-LMDeviceConfigSourceCollection -Id 456 -DatasourceId 789 -InstanceId "123
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DeviceGroupId</maml:name>
           <maml:description>
-            <maml:para>{{ Fill DeviceGroupId Description }}</maml:para>
+            <maml:para>Specifies the device group ID to search for duplicates. If not specified, all devices will be checked.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -36034,7 +36350,7 @@ Invoke-LMDeviceConfigSourceCollection -Id 456 -DatasourceId 789 -InstanceId "123
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>IpExclusionList</maml:name>
           <maml:description>
-            <maml:para>{{ Fill IpExclusionList Description }}</maml:para>
+            <maml:para>Array of IP addresses to exclude from duplicate comparison.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String[]</command:parameterValue>
           <dev:type>
@@ -36046,7 +36362,7 @@ Invoke-LMDeviceConfigSourceCollection -Id 456 -DatasourceId 789 -InstanceId "123
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>SysNameExclusionList</maml:name>
           <maml:description>
-            <maml:para>{{ Fill SysNameExclusionList Description }}</maml:para>
+            <maml:para>Array of system names to exclude from duplicate comparison.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String[]</command:parameterValue>
           <dev:type>
@@ -36058,7 +36374,7 @@ Invoke-LMDeviceConfigSourceCollection -Id 456 -DatasourceId 789 -InstanceId "123
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>ExcludeDeviceType</maml:name>
           <maml:description>
-            <maml:para>Exclude K8s resources by default</maml:para>
+            <maml:para>Array of device type IDs to exclude from duplicate comparison. Default is @(8) which excludes K8s resources.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String[]</command:parameterValue>
           <dev:type>
@@ -36085,7 +36401,7 @@ Invoke-LMDeviceConfigSourceCollection -Id 456 -DatasourceId 789 -InstanceId "123
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>RemoveDuplicates</maml:name>
           <maml:description>
-            <maml:para>{{ Fill RemoveDuplicates Description }}</maml:para>
+            <maml:para>Removes duplicate devices found based on the specified criteria. Required for Remove parameter set.</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -36096,7 +36412,7 @@ Invoke-LMDeviceConfigSourceCollection -Id 456 -DatasourceId 789 -InstanceId "123
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DeviceGroupId</maml:name>
           <maml:description>
-            <maml:para>{{ Fill DeviceGroupId Description }}</maml:para>
+            <maml:para>Specifies the device group ID to search for duplicates. If not specified, all devices will be checked.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -36108,7 +36424,7 @@ Invoke-LMDeviceConfigSourceCollection -Id 456 -DatasourceId 789 -InstanceId "123
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>IpExclusionList</maml:name>
           <maml:description>
-            <maml:para>{{ Fill IpExclusionList Description }}</maml:para>
+            <maml:para>Array of IP addresses to exclude from duplicate comparison.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String[]</command:parameterValue>
           <dev:type>
@@ -36120,7 +36436,7 @@ Invoke-LMDeviceConfigSourceCollection -Id 456 -DatasourceId 789 -InstanceId "123
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>SysNameExclusionList</maml:name>
           <maml:description>
-            <maml:para>{{ Fill SysNameExclusionList Description }}</maml:para>
+            <maml:para>Array of system names to exclude from duplicate comparison.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String[]</command:parameterValue>
           <dev:type>
@@ -36132,7 +36448,7 @@ Invoke-LMDeviceConfigSourceCollection -Id 456 -DatasourceId 789 -InstanceId "123
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>ExcludeDeviceType</maml:name>
           <maml:description>
-            <maml:para>Exclude K8s resources by default</maml:para>
+            <maml:para>Array of device type IDs to exclude from duplicate comparison. Default is @(8) which excludes K8s resources.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String[]</command:parameterValue>
           <dev:type>
@@ -36159,7 +36475,7 @@ Invoke-LMDeviceConfigSourceCollection -Id 456 -DatasourceId 789 -InstanceId "123
       <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>ListDuplicates</maml:name>
         <maml:description>
-          <maml:para>{{ Fill ListDuplicates Description }}</maml:para>
+          <maml:para>Lists duplicate devices found based on the specified criteria. Required for List parameter set.</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
         <dev:type>
@@ -36171,7 +36487,7 @@ Invoke-LMDeviceConfigSourceCollection -Id 456 -DatasourceId 789 -InstanceId "123
       <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>RemoveDuplicates</maml:name>
         <maml:description>
-          <maml:para>{{ Fill RemoveDuplicates Description }}</maml:para>
+          <maml:para>Removes duplicate devices found based on the specified criteria. Required for Remove parameter set.</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
         <dev:type>
@@ -36183,7 +36499,7 @@ Invoke-LMDeviceConfigSourceCollection -Id 456 -DatasourceId 789 -InstanceId "123
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>DeviceGroupId</maml:name>
         <maml:description>
-          <maml:para>{{ Fill DeviceGroupId Description }}</maml:para>
+          <maml:para>Specifies the device group ID to search for duplicates. If not specified, all devices will be checked.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -36195,7 +36511,7 @@ Invoke-LMDeviceConfigSourceCollection -Id 456 -DatasourceId 789 -InstanceId "123
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>IpExclusionList</maml:name>
         <maml:description>
-          <maml:para>{{ Fill IpExclusionList Description }}</maml:para>
+          <maml:para>Array of IP addresses to exclude from duplicate comparison.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String[]</command:parameterValue>
         <dev:type>
@@ -36207,7 +36523,7 @@ Invoke-LMDeviceConfigSourceCollection -Id 456 -DatasourceId 789 -InstanceId "123
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>SysNameExclusionList</maml:name>
         <maml:description>
-          <maml:para>{{ Fill SysNameExclusionList Description }}</maml:para>
+          <maml:para>Array of system names to exclude from duplicate comparison.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String[]</command:parameterValue>
         <dev:type>
@@ -36219,7 +36535,7 @@ Invoke-LMDeviceConfigSourceCollection -Id 456 -DatasourceId 789 -InstanceId "123
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>ExcludeDeviceType</maml:name>
         <maml:description>
-          <maml:para>Exclude K8s resources by default</maml:para>
+          <maml:para>Array of device type IDs to exclude from duplicate comparison. Default is @(8) which excludes K8s resources.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String[]</command:parameterValue>
         <dev:type>
@@ -44507,7 +44823,7 @@ Creates a new weekly device datasource SDT with a comment "Weekly maintenance" s
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DefaultCollectorId</maml:name>
           <maml:description>
-            <maml:para>{{ Fill DefaultCollectorId Description }}</maml:para>
+            <maml:para>Specifies the default collector ID for the device group. Default is 0.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -44519,7 +44835,7 @@ Creates a new weekly device datasource SDT with a comment "Weekly maintenance" s
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DefaultAutoBalancedCollectorGroupId</maml:name>
           <maml:description>
-            <maml:para>{{ Fill DefaultAutoBalancedCollectorGroupId Description }}</maml:para>
+            <maml:para>Specifies the default auto-balanced collector group ID for the device group. Default is 0.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -44531,7 +44847,7 @@ Creates a new weekly device datasource SDT with a comment "Weekly maintenance" s
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DefaultCollectorGroupId</maml:name>
           <maml:description>
-            <maml:para>{{ Fill DefaultCollectorGroupId Description }}</maml:para>
+            <maml:para>Specifies the default collector group ID for the device group. Default is 0.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -44676,7 +44992,7 @@ Creates a new weekly device datasource SDT with a comment "Weekly maintenance" s
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DefaultCollectorId</maml:name>
           <maml:description>
-            <maml:para>{{ Fill DefaultCollectorId Description }}</maml:para>
+            <maml:para>Specifies the default collector ID for the device group. Default is 0.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -44688,7 +45004,7 @@ Creates a new weekly device datasource SDT with a comment "Weekly maintenance" s
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DefaultAutoBalancedCollectorGroupId</maml:name>
           <maml:description>
-            <maml:para>{{ Fill DefaultAutoBalancedCollectorGroupId Description }}</maml:para>
+            <maml:para>Specifies the default auto-balanced collector group ID for the device group. Default is 0.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -44700,7 +45016,7 @@ Creates a new weekly device datasource SDT with a comment "Weekly maintenance" s
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DefaultCollectorGroupId</maml:name>
           <maml:description>
-            <maml:para>{{ Fill DefaultCollectorGroupId Description }}</maml:para>
+            <maml:para>Specifies the default collector group ID for the device group. Default is 0.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -44845,7 +45161,7 @@ Creates a new weekly device datasource SDT with a comment "Weekly maintenance" s
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>DefaultCollectorId</maml:name>
         <maml:description>
-          <maml:para>{{ Fill DefaultCollectorId Description }}</maml:para>
+          <maml:para>Specifies the default collector ID for the device group. Default is 0.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
         <dev:type>
@@ -44857,7 +45173,7 @@ Creates a new weekly device datasource SDT with a comment "Weekly maintenance" s
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>DefaultAutoBalancedCollectorGroupId</maml:name>
         <maml:description>
-          <maml:para>{{ Fill DefaultAutoBalancedCollectorGroupId Description }}</maml:para>
+          <maml:para>Specifies the default auto-balanced collector group ID for the device group. Default is 0.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
         <dev:type>
@@ -44869,7 +45185,7 @@ Creates a new weekly device datasource SDT with a comment "Weekly maintenance" s
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>DefaultCollectorGroupId</maml:name>
         <maml:description>
-          <maml:para>{{ Fill DefaultCollectorGroupId Description }}</maml:para>
+          <maml:para>Specifies the default collector group ID for the device group. Default is 0.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
         <dev:type>
@@ -49388,7 +49704,7 @@ New-LMLogPartition -Name "customerA" -Description "Customer A Log Partition" -Re
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="10" aliases="none">
           <maml:name>Schedule</maml:name>
           <maml:description>
-            <maml:para>{{ Fill Schedule Description }}</maml:para>
+            <maml:para>PSCustomObject containing schedule configuration for the netscan. If not provided, defaults to manual execution.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">PSObject</command:parameterValue>
           <dev:type>
@@ -49689,7 +50005,7 @@ New-LMLogPartition -Name "customerA" -Description "Customer A Log Partition" -Re
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="10" aliases="none">
         <maml:name>Schedule</maml:name>
         <maml:description>
-          <maml:para>{{ Fill Schedule Description }}</maml:para>
+          <maml:para>PSCustomObject containing schedule configuration for the netscan. If not provided, defaults to manual execution.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">PSObject</command:parameterValue>
         <dev:type>
@@ -52804,7 +53120,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="12" aliases="none">
           <maml:name>ResourceGroupRecords</maml:name>
           <maml:description>
-            <maml:para>{{ Fill ResourceGroupRecords Description }}</maml:para>
+            <maml:para>Array of resource group records for the service template. Default is @().</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Array</command:parameterValue>
           <dev:type>
@@ -52816,7 +53132,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="13" aliases="none">
           <maml:name>Criticality</maml:name>
           <maml:description>
-            <maml:para>{{ Fill Criticality Description }}</maml:para>
+            <maml:para>Array of criticality configurations for the service template. Default is @().</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Array</command:parameterValue>
           <dev:type>
@@ -52828,7 +53144,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="14" aliases="none">
           <maml:name>StaticGroup</maml:name>
           <maml:description>
-            <maml:para>{{ Fill StaticGroup Description }}</maml:para>
+            <maml:para>Array of static group configurations for the service template. Default is @().</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Array</command:parameterValue>
           <dev:type>
@@ -53105,7 +53421,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="12" aliases="none">
         <maml:name>ResourceGroupRecords</maml:name>
         <maml:description>
-          <maml:para>{{ Fill ResourceGroupRecords Description }}</maml:para>
+          <maml:para>Array of resource group records for the service template. Default is @().</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Array</command:parameterValue>
         <dev:type>
@@ -53117,7 +53433,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="13" aliases="none">
         <maml:name>Criticality</maml:name>
         <maml:description>
-          <maml:para>{{ Fill Criticality Description }}</maml:para>
+          <maml:para>Array of criticality configurations for the service template. Default is @().</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Array</command:parameterValue>
         <dev:type>
@@ -53129,7 +53445,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="14" aliases="none">
         <maml:name>StaticGroup</maml:name>
         <maml:description>
-          <maml:para>{{ Fill StaticGroup Description }}</maml:para>
+          <maml:para>Array of static group configurations for the service template. Default is @().</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Array</command:parameterValue>
         <dev:type>
@@ -53268,7 +53584,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>PollingInterval</maml:name>
           <maml:description>
-            <maml:para>Sets the polling interval in minutes. Valid values are 1-10, 30, or 60.</maml:para>
+            <maml:para>Sets the polling interval in minutes. Valid values are 1-10, 30 or 60.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -53280,7 +53596,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>AlertTriggerInterval</maml:name>
           <maml:description>
-            <maml:para>{{ Fill AlertTriggerInterval Description }}</maml:para>
+            <maml:para>Specifies the number of consecutive failures required to trigger an alert. Valid values are 1-10, 30, 60. Default is 1.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -53605,7 +53921,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>PollingInterval</maml:name>
           <maml:description>
-            <maml:para>Sets the polling interval in minutes. Valid values are 1-10, 30, or 60.</maml:para>
+            <maml:para>Sets the polling interval in minutes. Valid values are 1-10, 30 or 60.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -53617,7 +53933,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>AlertTriggerInterval</maml:name>
           <maml:description>
-            <maml:para>{{ Fill AlertTriggerInterval Description }}</maml:para>
+            <maml:para>Specifies the number of consecutive failures required to trigger an alert. Valid values are 1-10, 30, 60. Default is 1.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -53953,7 +54269,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>PollingInterval</maml:name>
           <maml:description>
-            <maml:para>Sets the polling interval in minutes. Valid values are 1-10, 30, or 60.</maml:para>
+            <maml:para>Sets the polling interval in minutes. Valid values are 1-10, 30 or 60.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -53965,7 +54281,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>AlertTriggerInterval</maml:name>
           <maml:description>
-            <maml:para>{{ Fill AlertTriggerInterval Description }}</maml:para>
+            <maml:para>Specifies the number of consecutive failures required to trigger an alert. Valid values are 1-10, 30, 60. Default is 1.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -54085,7 +54401,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>Count</maml:name>
           <maml:description>
-            <maml:para>Specifies ping attempts per collection for ping checks. Valid values: 5, 10, 15, 20, 30, 60.</maml:para>
+            <maml:para>Specifies ping attempts per collection for ping checks. Valid values: 5, 10, 15, 20, 30, 50.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -54217,7 +54533,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>PollingInterval</maml:name>
           <maml:description>
-            <maml:para>Sets the polling interval in minutes. Valid values are 1-10, 30, or 60.</maml:para>
+            <maml:para>Sets the polling interval in minutes. Valid values are 1-10, 30 or 60.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -54229,7 +54545,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>AlertTriggerInterval</maml:name>
           <maml:description>
-            <maml:para>{{ Fill AlertTriggerInterval Description }}</maml:para>
+            <maml:para>Specifies the number of consecutive failures required to trigger an alert. Valid values are 1-10, 30, 60. Default is 1.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -54349,7 +54665,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>Count</maml:name>
           <maml:description>
-            <maml:para>Specifies ping attempts per collection for ping checks. Valid values: 5, 10, 15, 20, 30, 60.</maml:para>
+            <maml:para>Specifies ping attempts per collection for ping checks. Valid values: 5, 10, 15, 20, 30, 50.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -54470,7 +54786,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>PollingInterval</maml:name>
         <maml:description>
-          <maml:para>Sets the polling interval in minutes. Valid values are 1-10, 30, or 60.</maml:para>
+          <maml:para>Sets the polling interval in minutes. Valid values are 1-10, 30 or 60.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
         <dev:type>
@@ -54482,7 +54798,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>AlertTriggerInterval</maml:name>
         <maml:description>
-          <maml:para>{{ Fill AlertTriggerInterval Description }}</maml:para>
+          <maml:para>Specifies the number of consecutive failures required to trigger an alert. Valid values are 1-10, 30, 60. Default is 1.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
         <dev:type>
@@ -54734,7 +55050,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>Count</maml:name>
         <maml:description>
-          <maml:para>Specifies ping attempts per collection for ping checks. Valid values: 5, 10, 15, 20, 30, 60.</maml:para>
+          <maml:para>Specifies ping attempts per collection for ping checks. Valid values: 5, 10, 15, 20, 30, 50.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
         <dev:type>
@@ -56390,7 +56706,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="alertExpr">
           <maml:name>SSLAlertThresholds</maml:name>
           <maml:description>
-            <maml:para>Specifies the SSL alert thresholds for the website check.</maml:para>
+            <maml:para>Specifies the SSL alert thresholds for the website check. This is an alias for the alertExpr parameter.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String[]</command:parameterValue>
           <dev:type>
@@ -56510,7 +56826,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>CheckPoints</maml:name>
           <maml:description>
-            <maml:para>Specifies the check points for the check. This is a legacy parameter and has been replaced with the TestLocation* parameters and may be removed in a future version.</maml:para>
+            <maml:para>Specifies the check points for the check. This is a legacy parameter and will be deprecated in a future release.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Object[]</command:parameterValue>
           <dev:type>
@@ -56522,7 +56838,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>TestLocationAll</maml:name>
           <maml:description>
-            <maml:para>Specifies whether to test from all locations. This parameter is only valid for external checks and cannot be used with TestLocationCollectorIds or TestLocationSmgIds.</maml:para>
+            <maml:para>Specifies whether to test all locations. This parameter is only valid for external checks.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Boolean</command:parameterValue>
           <dev:type>
@@ -56534,7 +56850,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>TestLocationCollectorIds</maml:name>
           <maml:description>
-            <maml:para>Specifies the collector IDs to use for testing. Can only be used when IsInternal is true. Cannot be used with TestLocationAll or TestLocationSmgIds.</maml:para>
+            <maml:para>Specifies the collector IDs for the test locations.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32[]</command:parameterValue>
           <dev:type>
@@ -56546,11 +56862,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>TestLocationSmgIds</maml:name>
           <maml:description>
-            <maml:para>Specifies the collector group IDs to use for testing. Can only be used when IsInternal is false. Cannot be used with TestLocationAll or TestLocationCollectorIds. Available collector group IDs correspond to LogicMonitor regions: - 2 = US - Washington DC</maml:para>
-            <maml:para>- 3 = Europe - Dublin</maml:para>
-            <maml:para>- 4 = US - Oregon</maml:para>
-            <maml:para>- 5 = Asia - Singapore</maml:para>
-            <maml:para>- 6 = Australia - Sydney</maml:para>
+            <maml:para>Specifies the SMG IDs for the test locations.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32[]</command:parameterValue>
           <dev:type>
@@ -56718,7 +57030,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>PingCount</maml:name>
           <maml:description>
-            <maml:para>Specifies the number of pings to send for the ping check. The valid values are 5, 10, 15, 20, 30, and 60.</maml:para>
+            <maml:para>Specifies the number of pings to send for the ping check. The valid values are 5, 10, 15, 20, 30, and 50.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -56826,7 +57138,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>TestLocationAll</maml:name>
           <maml:description>
-            <maml:para>Specifies whether to test from all locations. This parameter is only valid for external checks and cannot be used with TestLocationCollectorIds or TestLocationSmgIds.</maml:para>
+            <maml:para>Specifies whether to test all locations. This parameter is only valid for external checks.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Boolean</command:parameterValue>
           <dev:type>
@@ -56838,7 +57150,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>TestLocationCollectorIds</maml:name>
           <maml:description>
-            <maml:para>Specifies the collector IDs to use for testing. Can only be used when IsInternal is true. Cannot be used with TestLocationAll or TestLocationSmgIds.</maml:para>
+            <maml:para>Specifies the collector IDs for the test locations.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32[]</command:parameterValue>
           <dev:type>
@@ -56850,11 +57162,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>TestLocationSmgIds</maml:name>
           <maml:description>
-            <maml:para>Specifies the collector group IDs to use for testing. Can only be used when IsInternal is false. Cannot be used with TestLocationAll or TestLocationCollectorIds. Available collector group IDs correspond to LogicMonitor regions: - 2 = US - Washington DC</maml:para>
-            <maml:para>- 3 = Europe - Dublin</maml:para>
-            <maml:para>- 4 = US - Oregon</maml:para>
-            <maml:para>- 5 = Asia - Singapore</maml:para>
-            <maml:para>- 6 = Australia - Sydney</maml:para>
+            <maml:para>Specifies the SMG IDs for the test locations.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32[]</command:parameterValue>
           <dev:type>
@@ -57083,7 +57391,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="alertExpr">
         <maml:name>SSLAlertThresholds</maml:name>
         <maml:description>
-          <maml:para>Specifies the SSL alert thresholds for the website check.</maml:para>
+          <maml:para>Specifies the SSL alert thresholds for the website check. This is an alias for the alertExpr parameter.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String[]</command:parameterValue>
         <dev:type>
@@ -57095,7 +57403,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>PingCount</maml:name>
         <maml:description>
-          <maml:para>Specifies the number of pings to send for the ping check. The valid values are 5, 10, 15, 20, 30, and 60.</maml:para>
+          <maml:para>Specifies the number of pings to send for the ping check. The valid values are 5, 10, 15, 20, 30, and 50.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
         <dev:type>
@@ -57239,7 +57547,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>CheckPoints</maml:name>
         <maml:description>
-          <maml:para>Specifies the check points for the check. This is a legacy parameter and has been replaced with the TestLocation* parameters and may be removed in a future version.</maml:para>
+          <maml:para>Specifies the check points for the check. This is a legacy parameter and will be deprecated in a future release.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Object[]</command:parameterValue>
         <dev:type>
@@ -57251,7 +57559,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>TestLocationAll</maml:name>
         <maml:description>
-          <maml:para>Specifies whether to test from all locations. This parameter is only valid for external checks and cannot be used with TestLocationCollectorIds or TestLocationSmgIds.</maml:para>
+          <maml:para>Specifies whether to test all locations. This parameter is only valid for external checks.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Boolean</command:parameterValue>
         <dev:type>
@@ -57263,7 +57571,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>TestLocationCollectorIds</maml:name>
         <maml:description>
-          <maml:para>Specifies the collector IDs to use for testing. Can only be used when IsInternal is true. Cannot be used with TestLocationAll or TestLocationSmgIds.</maml:para>
+          <maml:para>Specifies the collector IDs for the test locations.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Int32[]</command:parameterValue>
         <dev:type>
@@ -57275,11 +57583,7 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>TestLocationSmgIds</maml:name>
         <maml:description>
-          <maml:para>Specifies the collector group IDs to use for testing. Can only be used when IsInternal is false. Cannot be used with TestLocationAll or TestLocationCollectorIds. Available collector group IDs correspond to LogicMonitor regions: - 2 = US - Washington DC</maml:para>
-          <maml:para>- 3 = Europe - Dublin</maml:para>
-          <maml:para>- 4 = US - Oregon</maml:para>
-          <maml:para>- 5 = Asia - Singapore</maml:para>
-          <maml:para>- 6 = Australia - Sydney</maml:para>
+          <maml:para>Specifies the SMG IDs for the test locations.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Int32[]</command:parameterValue>
         <dev:type>
@@ -57363,20 +57667,6 @@ This example creates a new LogicMonitor recipient group named "MyRecipientGroup"
         <dev:code>New-LMWebsite -PingCheck -Name "Example Ping" -PingAddress "192.168.1.1" -PingCount 5 -PingTimeout 1000 -GroupId "12345" -OverallAlertLevel "warn" -IndividualAlertLevel "warn"</dev:code>
         <dev:remarks>
           <maml:para>This example creates a new LogicMonitor ping check for the IP address "192.168.1.1". It sends 5 pings with a timeout of 1000 milliseconds. It assigns the check to the group with ID "12345" and sets the overall alert level and individual alert level to "warn".</maml:para>
-        </dev:remarks>
-      </command:example>
-      <command:example>
-        <maml:title>-------------------------- EXAMPLE 3 --------------------------</maml:title>
-        <dev:code>New-LMWebsite -WebCheck -Name "External Website" -WebsiteDomain "example.com" -IsInternal $false -TestLocationSmgIds @(2, 3, 4)</dev:code>
-        <dev:remarks>
-          <maml:para>This example creates a new LogicMonitor website check for an external website "example.com". It configures the check to test from specific LogicMonitor regions (US - Washington DC, Europe - Dublin, and US - Oregon).</maml:para>
-        </dev:remarks>
-      </command:example>
-      <command:example>
-        <maml:title>-------------------------- EXAMPLE 4 --------------------------</maml:title>
-        <dev:code>New-LMWebsite -WebCheck -Name "Internal Website" -WebsiteDomain "internal.example.com" -IsInternal $true -TestLocationCollectorIds @(1, 2, 3)</dev:code>
-        <dev:remarks>
-          <maml:para>This example creates a new LogicMonitor website check for an internal website "internal.example.com". It configures the check to test from specific collectors with IDs 1, 2, and 3.</maml:para>
         </dev:remarks>
       </command:example>
     </command:examples>
@@ -60873,7 +61163,7 @@ Permanently deletes the LogicMonitor device with the name "MyDevice".</dev:code>
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DeviceName</maml:name>
           <maml:description>
-            <maml:para>{{ Fill DeviceName Description }}</maml:para>
+            <maml:para>Specifies the name of the device. This parameter is mandatory when using the 'Name-dsName' or 'Name-dsId' parameter sets.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -60897,7 +61187,7 @@ Permanently deletes the LogicMonitor device with the name "MyDevice".</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="True (ByPropertyName)" position="named" aliases="Id">
           <maml:name>InstanceId</maml:name>
           <maml:description>
-            <maml:para>{{ Fill InstanceId Description }}</maml:para>
+            <maml:para>Specifies the instance ID. Can also use the alias Id.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -60958,7 +61248,7 @@ Permanently deletes the LogicMonitor device with the name "MyDevice".</dev:code>
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DeviceId</maml:name>
           <maml:description>
-            <maml:para>{{ Fill DeviceId Description }}</maml:para>
+            <maml:para>Specifies the ID of the device. This parameter is mandatory when using the 'Id-dsId' or 'Id-dsName' parameter sets.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -60982,7 +61272,7 @@ Permanently deletes the LogicMonitor device with the name "MyDevice".</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="True (ByPropertyName)" position="named" aliases="Id">
           <maml:name>InstanceId</maml:name>
           <maml:description>
-            <maml:para>{{ Fill InstanceId Description }}</maml:para>
+            <maml:para>Specifies the instance ID. Can also use the alias Id.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -61043,7 +61333,7 @@ Permanently deletes the LogicMonitor device with the name "MyDevice".</dev:code>
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DeviceName</maml:name>
           <maml:description>
-            <maml:para>{{ Fill DeviceName Description }}</maml:para>
+            <maml:para>Specifies the name of the device. This parameter is mandatory when using the 'Name-dsName' or 'Name-dsId' parameter sets.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -61067,7 +61357,7 @@ Permanently deletes the LogicMonitor device with the name "MyDevice".</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="True (ByPropertyName)" position="named" aliases="Id">
           <maml:name>InstanceId</maml:name>
           <maml:description>
-            <maml:para>{{ Fill InstanceId Description }}</maml:para>
+            <maml:para>Specifies the instance ID. Can also use the alias Id.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -61128,7 +61418,7 @@ Permanently deletes the LogicMonitor device with the name "MyDevice".</dev:code>
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DeviceId</maml:name>
           <maml:description>
-            <maml:para>{{ Fill DeviceId Description }}</maml:para>
+            <maml:para>Specifies the ID of the device. This parameter is mandatory when using the 'Id-dsId' or 'Id-dsName' parameter sets.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -61152,7 +61442,7 @@ Permanently deletes the LogicMonitor device with the name "MyDevice".</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="True (ByPropertyName)" position="named" aliases="Id">
           <maml:name>InstanceId</maml:name>
           <maml:description>
-            <maml:para>{{ Fill InstanceId Description }}</maml:para>
+            <maml:para>Specifies the instance ID. Can also use the alias Id.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -61225,7 +61515,7 @@ Permanently deletes the LogicMonitor device with the name "MyDevice".</dev:code>
       <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>DeviceId</maml:name>
         <maml:description>
-          <maml:para>{{ Fill DeviceId Description }}</maml:para>
+          <maml:para>Specifies the ID of the device. This parameter is mandatory when using the 'Id-dsId' or 'Id-dsName' parameter sets.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
         <dev:type>
@@ -61237,7 +61527,7 @@ Permanently deletes the LogicMonitor device with the name "MyDevice".</dev:code>
       <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>DeviceName</maml:name>
         <maml:description>
-          <maml:para>{{ Fill DeviceName Description }}</maml:para>
+          <maml:para>Specifies the name of the device. This parameter is mandatory when using the 'Name-dsName' or 'Name-dsId' parameter sets.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -61261,7 +61551,7 @@ Permanently deletes the LogicMonitor device with the name "MyDevice".</dev:code>
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="True (ByPropertyName)" position="named" aliases="Id">
         <maml:name>InstanceId</maml:name>
         <maml:description>
-          <maml:para>{{ Fill InstanceId Description }}</maml:para>
+          <maml:para>Specifies the instance ID. Can also use the alias Id.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
         <dev:type>
@@ -67484,7 +67774,7 @@ Removes the unmonitored devices with IDs "123" and "456".</dev:code>
     </command:returnValues>
     <maml:alertSet>
       <maml:alert>
-        <maml:para>You must run Connect-LMAccount before invoking this cmdlet. Requests target /device/devices/{id}?deleteHard={bool} with X-Version 3.</maml:para>
+        <maml:para>You must run Connect-LMAccount before invoking this cmdlet.</maml:para>
       </maml:alert>
     </maml:alertSet>
     <command:examples>
@@ -68950,7 +69240,7 @@ Creates a new resource and sends metric data for the specified instances.</dev:c
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="2" aliases="none">
           <maml:name>Messages</maml:name>
           <maml:description>
-            <maml:para>{{ Fill Messages Description }}</maml:para>
+            <maml:para>Specifies the collection of messages/events to send. Each item may be a hashtable, PSCustomObject, or simple value.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Object[]</command:parameterValue>
           <dev:type>
@@ -68974,7 +69264,7 @@ Creates a new resource and sends metric data for the specified instances.</dev:c
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>PassThru</maml:name>
           <maml:description>
-            <maml:para>{{ Fill PassThru Description }}</maml:para>
+            <maml:para>Returns PSCustomObject entries containing status, payload, and optional error details for each attempted message.</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -69012,7 +69302,7 @@ Creates a new resource and sends metric data for the specified instances.</dev:c
       <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="2" aliases="none">
         <maml:name>Messages</maml:name>
         <maml:description>
-          <maml:para>{{ Fill Messages Description }}</maml:para>
+          <maml:para>Specifies the collection of messages/events to send. Each item may be a hashtable, PSCustomObject, or simple value.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Object[]</command:parameterValue>
         <dev:type>
@@ -69036,7 +69326,7 @@ Creates a new resource and sends metric data for the specified instances.</dev:c
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>PassThru</maml:name>
         <maml:description>
-          <maml:para>{{ Fill PassThru Description }}</maml:para>
+          <maml:para>Returns PSCustomObject entries containing status, payload, and optional error details for each attempted message.</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
         <dev:type>
@@ -69425,7 +69715,7 @@ Sets the properties of the access group with name "Old Access Group". The new na
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>NewName</maml:name>
           <maml:description>
-            <maml:para>{{ Fill NewName Description }}</maml:para>
+            <maml:para>Specifies the new name for the alert rule.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -69654,7 +69944,7 @@ Sets the properties of the access group with name "Old Access Group". The new na
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>NewName</maml:name>
           <maml:description>
-            <maml:para>{{ Fill NewName Description }}</maml:para>
+            <maml:para>Specifies the new name for the alert rule.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -69883,7 +70173,7 @@ Sets the properties of the access group with name "Old Access Group". The new na
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>NewName</maml:name>
         <maml:description>
-          <maml:para>{{ Fill NewName Description }}</maml:para>
+          <maml:para>Specifies the new name for the alert rule.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -71361,7 +71651,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>SnmpThreadPool</maml:name>
           <maml:description>
-            <maml:para>{{ Fill SnmpThreadPool Description }}</maml:para>
+            <maml:para>Specifies the SNMP thread pool size for snippet configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -71373,7 +71663,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>SnmpPduTimeout</maml:name>
           <maml:description>
-            <maml:para>{{ Fill SnmpPduTimeout Description }}</maml:para>
+            <maml:para>Specifies the SNMP PDU timeout in milliseconds for snippet configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -71385,7 +71675,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>ScriptThreadPool</maml:name>
           <maml:description>
-            <maml:para>{{ Fill ScriptThreadPool Description }}</maml:para>
+            <maml:para>Specifies the script thread pool size for snippet configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -71397,7 +71687,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>ScriptTimeout</maml:name>
           <maml:description>
-            <maml:para>{{ Fill ScriptTimeout Description }}</maml:para>
+            <maml:para>Specifies the script timeout in seconds for snippet configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -71409,7 +71699,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>BatchScriptThreadPool</maml:name>
           <maml:description>
-            <maml:para>{{ Fill BatchScriptThreadPool Description }}</maml:para>
+            <maml:para>Specifies the batch script thread pool size for snippet configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -71421,7 +71711,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>BatchScriptTimeout</maml:name>
           <maml:description>
-            <maml:para>{{ Fill BatchScriptTimeout Description }}</maml:para>
+            <maml:para>Specifies the batch script timeout in seconds for snippet configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -71433,7 +71723,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>PowerShellSPSEProcessCountMin</maml:name>
           <maml:description>
-            <maml:para>{{ Fill PowerShellSPSEProcessCountMin Description }}</maml:para>
+            <maml:para>Specifies the minimum PowerShell SPSE process count for snippet configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -71445,7 +71735,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>PowerShellSPSEProcessCountMax</maml:name>
           <maml:description>
-            <maml:para>{{ Fill PowerShellSPSEProcessCountMax Description }}</maml:para>
+            <maml:para>Specifies the maximum PowerShell SPSE process count for snippet configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -71457,7 +71747,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>NetflowEnable</maml:name>
           <maml:description>
-            <maml:para>{{ Fill NetflowEnable Description }}</maml:para>
+            <maml:para>Indicates whether Netflow is enabled for snippet configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Boolean</command:parameterValue>
           <dev:type>
@@ -71469,7 +71759,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>NbarEnable</maml:name>
           <maml:description>
-            <maml:para>{{ Fill NbarEnable Description }}</maml:para>
+            <maml:para>Indicates whether NBAR is enabled for snippet configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Boolean</command:parameterValue>
           <dev:type>
@@ -71481,7 +71771,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>NetflowPorts</maml:name>
           <maml:description>
-            <maml:para>{{ Fill NetflowPorts Description }}</maml:para>
+            <maml:para>Specifies the Netflow ports for snippet configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String[]</command:parameterValue>
           <dev:type>
@@ -71493,7 +71783,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>SflowPorts</maml:name>
           <maml:description>
-            <maml:para>{{ Fill SflowPorts Description }}</maml:para>
+            <maml:para>Specifies the sFlow ports for snippet configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String[]</command:parameterValue>
           <dev:type>
@@ -71505,7 +71795,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>LMLogsSyslogEnable</maml:name>
           <maml:description>
-            <maml:para>{{ Fill LMLogsSyslogEnable Description }}</maml:para>
+            <maml:para>Indicates whether LM Logs syslog is enabled for snippet configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Boolean</command:parameterValue>
           <dev:type>
@@ -71517,7 +71807,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>LMLogsSyslogHostnameFormat</maml:name>
           <maml:description>
-            <maml:para>{{ Fill LMLogsSyslogHostnameFormat Description }}</maml:para>
+            <maml:para>Specifies the hostname format for LM Logs syslog. Valid values: "IP", "FQDN", "HOSTNAME".</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -71529,7 +71819,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>LMLogsSyslogPropertyName</maml:name>
           <maml:description>
-            <maml:para>{{ Fill LMLogsSyslogPropertyName Description }}</maml:para>
+            <maml:para>Specifies the property name for LM Logs syslog configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -71542,7 +71832,6 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
           <maml:name>WaitForRestart</maml:name>
           <maml:description>
             <maml:para>Indicates whether to wait for the collector restart to complete.</maml:para>
-            <maml:para>[Additional parameters for snippet configuration omitted for brevity]</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -71675,7 +71964,6 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
           <maml:name>WaitForRestart</maml:name>
           <maml:description>
             <maml:para>Indicates whether to wait for the collector restart to complete.</maml:para>
-            <maml:para>[Additional parameters for snippet configuration omitted for brevity]</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -71735,7 +72023,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>SnmpThreadPool</maml:name>
           <maml:description>
-            <maml:para>{{ Fill SnmpThreadPool Description }}</maml:para>
+            <maml:para>Specifies the SNMP thread pool size for snippet configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -71747,7 +72035,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>SnmpPduTimeout</maml:name>
           <maml:description>
-            <maml:para>{{ Fill SnmpPduTimeout Description }}</maml:para>
+            <maml:para>Specifies the SNMP PDU timeout in milliseconds for snippet configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -71759,7 +72047,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>ScriptThreadPool</maml:name>
           <maml:description>
-            <maml:para>{{ Fill ScriptThreadPool Description }}</maml:para>
+            <maml:para>Specifies the script thread pool size for snippet configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -71771,7 +72059,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>ScriptTimeout</maml:name>
           <maml:description>
-            <maml:para>{{ Fill ScriptTimeout Description }}</maml:para>
+            <maml:para>Specifies the script timeout in seconds for snippet configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -71783,7 +72071,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>BatchScriptThreadPool</maml:name>
           <maml:description>
-            <maml:para>{{ Fill BatchScriptThreadPool Description }}</maml:para>
+            <maml:para>Specifies the batch script thread pool size for snippet configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -71795,7 +72083,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>BatchScriptTimeout</maml:name>
           <maml:description>
-            <maml:para>{{ Fill BatchScriptTimeout Description }}</maml:para>
+            <maml:para>Specifies the batch script timeout in seconds for snippet configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -71807,7 +72095,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>PowerShellSPSEProcessCountMin</maml:name>
           <maml:description>
-            <maml:para>{{ Fill PowerShellSPSEProcessCountMin Description }}</maml:para>
+            <maml:para>Specifies the minimum PowerShell SPSE process count for snippet configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -71819,7 +72107,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>PowerShellSPSEProcessCountMax</maml:name>
           <maml:description>
-            <maml:para>{{ Fill PowerShellSPSEProcessCountMax Description }}</maml:para>
+            <maml:para>Specifies the maximum PowerShell SPSE process count for snippet configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -71831,7 +72119,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>NetflowEnable</maml:name>
           <maml:description>
-            <maml:para>{{ Fill NetflowEnable Description }}</maml:para>
+            <maml:para>Indicates whether Netflow is enabled for snippet configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Boolean</command:parameterValue>
           <dev:type>
@@ -71843,7 +72131,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>NbarEnable</maml:name>
           <maml:description>
-            <maml:para>{{ Fill NbarEnable Description }}</maml:para>
+            <maml:para>Indicates whether NBAR is enabled for snippet configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Boolean</command:parameterValue>
           <dev:type>
@@ -71855,7 +72143,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>NetflowPorts</maml:name>
           <maml:description>
-            <maml:para>{{ Fill NetflowPorts Description }}</maml:para>
+            <maml:para>Specifies the Netflow ports for snippet configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String[]</command:parameterValue>
           <dev:type>
@@ -71867,7 +72155,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>SflowPorts</maml:name>
           <maml:description>
-            <maml:para>{{ Fill SflowPorts Description }}</maml:para>
+            <maml:para>Specifies the sFlow ports for snippet configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String[]</command:parameterValue>
           <dev:type>
@@ -71879,7 +72167,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>LMLogsSyslogEnable</maml:name>
           <maml:description>
-            <maml:para>{{ Fill LMLogsSyslogEnable Description }}</maml:para>
+            <maml:para>Indicates whether LM Logs syslog is enabled for snippet configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Boolean</command:parameterValue>
           <dev:type>
@@ -71891,7 +72179,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>LMLogsSyslogHostnameFormat</maml:name>
           <maml:description>
-            <maml:para>{{ Fill LMLogsSyslogHostnameFormat Description }}</maml:para>
+            <maml:para>Specifies the hostname format for LM Logs syslog. Valid values: "IP", "FQDN", "HOSTNAME".</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -71903,7 +72191,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>LMLogsSyslogPropertyName</maml:name>
           <maml:description>
-            <maml:para>{{ Fill LMLogsSyslogPropertyName Description }}</maml:para>
+            <maml:para>Specifies the property name for LM Logs syslog configuration.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -71916,7 +72204,6 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
           <maml:name>WaitForRestart</maml:name>
           <maml:description>
             <maml:para>Indicates whether to wait for the collector restart to complete.</maml:para>
-            <maml:para>[Additional parameters for snippet configuration omitted for brevity]</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -72049,7 +72336,6 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
           <maml:name>WaitForRestart</maml:name>
           <maml:description>
             <maml:para>Indicates whether to wait for the collector restart to complete.</maml:para>
-            <maml:para>[Additional parameters for snippet configuration omitted for brevity]</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -72193,7 +72479,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>SnmpThreadPool</maml:name>
         <maml:description>
-          <maml:para>{{ Fill SnmpThreadPool Description }}</maml:para>
+          <maml:para>Specifies the SNMP thread pool size for snippet configuration.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
         <dev:type>
@@ -72205,7 +72491,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>SnmpPduTimeout</maml:name>
         <maml:description>
-          <maml:para>{{ Fill SnmpPduTimeout Description }}</maml:para>
+          <maml:para>Specifies the SNMP PDU timeout in milliseconds for snippet configuration.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
         <dev:type>
@@ -72217,7 +72503,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>ScriptThreadPool</maml:name>
         <maml:description>
-          <maml:para>{{ Fill ScriptThreadPool Description }}</maml:para>
+          <maml:para>Specifies the script thread pool size for snippet configuration.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
         <dev:type>
@@ -72229,7 +72515,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>ScriptTimeout</maml:name>
         <maml:description>
-          <maml:para>{{ Fill ScriptTimeout Description }}</maml:para>
+          <maml:para>Specifies the script timeout in seconds for snippet configuration.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
         <dev:type>
@@ -72241,7 +72527,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>BatchScriptThreadPool</maml:name>
         <maml:description>
-          <maml:para>{{ Fill BatchScriptThreadPool Description }}</maml:para>
+          <maml:para>Specifies the batch script thread pool size for snippet configuration.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
         <dev:type>
@@ -72253,7 +72539,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>BatchScriptTimeout</maml:name>
         <maml:description>
-          <maml:para>{{ Fill BatchScriptTimeout Description }}</maml:para>
+          <maml:para>Specifies the batch script timeout in seconds for snippet configuration.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
         <dev:type>
@@ -72265,7 +72551,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>PowerShellSPSEProcessCountMin</maml:name>
         <maml:description>
-          <maml:para>{{ Fill PowerShellSPSEProcessCountMin Description }}</maml:para>
+          <maml:para>Specifies the minimum PowerShell SPSE process count for snippet configuration.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
         <dev:type>
@@ -72277,7 +72563,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>PowerShellSPSEProcessCountMax</maml:name>
         <maml:description>
-          <maml:para>{{ Fill PowerShellSPSEProcessCountMax Description }}</maml:para>
+          <maml:para>Specifies the maximum PowerShell SPSE process count for snippet configuration.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
         <dev:type>
@@ -72289,7 +72575,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>NetflowEnable</maml:name>
         <maml:description>
-          <maml:para>{{ Fill NetflowEnable Description }}</maml:para>
+          <maml:para>Indicates whether Netflow is enabled for snippet configuration.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Boolean</command:parameterValue>
         <dev:type>
@@ -72301,7 +72587,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>NbarEnable</maml:name>
         <maml:description>
-          <maml:para>{{ Fill NbarEnable Description }}</maml:para>
+          <maml:para>Indicates whether NBAR is enabled for snippet configuration.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Boolean</command:parameterValue>
         <dev:type>
@@ -72313,7 +72599,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>NetflowPorts</maml:name>
         <maml:description>
-          <maml:para>{{ Fill NetflowPorts Description }}</maml:para>
+          <maml:para>Specifies the Netflow ports for snippet configuration.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String[]</command:parameterValue>
         <dev:type>
@@ -72325,7 +72611,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>SflowPorts</maml:name>
         <maml:description>
-          <maml:para>{{ Fill SflowPorts Description }}</maml:para>
+          <maml:para>Specifies the sFlow ports for snippet configuration.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String[]</command:parameterValue>
         <dev:type>
@@ -72337,7 +72623,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>LMLogsSyslogEnable</maml:name>
         <maml:description>
-          <maml:para>{{ Fill LMLogsSyslogEnable Description }}</maml:para>
+          <maml:para>Indicates whether LM Logs syslog is enabled for snippet configuration.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Boolean</command:parameterValue>
         <dev:type>
@@ -72349,7 +72635,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>LMLogsSyslogHostnameFormat</maml:name>
         <maml:description>
-          <maml:para>{{ Fill LMLogsSyslogHostnameFormat Description }}</maml:para>
+          <maml:para>Specifies the hostname format for LM Logs syslog. Valid values: "IP", "FQDN", "HOSTNAME".</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -72361,7 +72647,7 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>LMLogsSyslogPropertyName</maml:name>
         <maml:description>
-          <maml:para>{{ Fill LMLogsSyslogPropertyName Description }}</maml:para>
+          <maml:para>Specifies the property name for LM Logs syslog configuration.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -72374,7 +72660,6 @@ Updates the collector with ID 123 with a new description and enables fail-back.<
         <maml:name>WaitForRestart</maml:name>
         <maml:description>
           <maml:para>Indicates whether to wait for the collector restart to complete.</maml:para>
-          <maml:para>[Additional parameters for snippet configuration omitted for brevity]</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
         <dev:type>
@@ -76661,7 +76946,7 @@ Updates the alert settings for the CPU Usage datapoint on the specified device.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DefaultCollectorId</maml:name>
           <maml:description>
-            <maml:para>{{ Fill DefaultCollectorId Description }}</maml:para>
+            <maml:para>Specifies the default collector ID for the device group.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -76673,7 +76958,7 @@ Updates the alert settings for the CPU Usage datapoint on the specified device.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DefaultAutoBalancedCollectorGroupId</maml:name>
           <maml:description>
-            <maml:para>{{ Fill DefaultAutoBalancedCollectorGroupId Description }}</maml:para>
+            <maml:para>Specifies the default auto-balanced collector group ID for the device group.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -76685,7 +76970,7 @@ Updates the alert settings for the CPU Usage datapoint on the specified device.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DefaultCollectorGroupId</maml:name>
           <maml:description>
-            <maml:para>{{ Fill DefaultCollectorGroupId Description }}</maml:para>
+            <maml:para>Specifies the default collector group ID for the device group.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -76854,7 +77139,7 @@ Updates the alert settings for the CPU Usage datapoint on the specified device.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DefaultCollectorId</maml:name>
           <maml:description>
-            <maml:para>{{ Fill DefaultCollectorId Description }}</maml:para>
+            <maml:para>Specifies the default collector ID for the device group.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -76866,7 +77151,7 @@ Updates the alert settings for the CPU Usage datapoint on the specified device.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DefaultAutoBalancedCollectorGroupId</maml:name>
           <maml:description>
-            <maml:para>{{ Fill DefaultAutoBalancedCollectorGroupId Description }}</maml:para>
+            <maml:para>Specifies the default auto-balanced collector group ID for the device group.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -76878,7 +77163,7 @@ Updates the alert settings for the CPU Usage datapoint on the specified device.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DefaultCollectorGroupId</maml:name>
           <maml:description>
-            <maml:para>{{ Fill DefaultCollectorGroupId Description }}</maml:para>
+            <maml:para>Specifies the default collector group ID for the device group.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -77047,7 +77332,7 @@ Updates the alert settings for the CPU Usage datapoint on the specified device.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DefaultCollectorId</maml:name>
           <maml:description>
-            <maml:para>{{ Fill DefaultCollectorId Description }}</maml:para>
+            <maml:para>Specifies the default collector ID for the device group.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -77059,7 +77344,7 @@ Updates the alert settings for the CPU Usage datapoint on the specified device.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DefaultAutoBalancedCollectorGroupId</maml:name>
           <maml:description>
-            <maml:para>{{ Fill DefaultAutoBalancedCollectorGroupId Description }}</maml:para>
+            <maml:para>Specifies the default auto-balanced collector group ID for the device group.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -77071,7 +77356,7 @@ Updates the alert settings for the CPU Usage datapoint on the specified device.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DefaultCollectorGroupId</maml:name>
           <maml:description>
-            <maml:para>{{ Fill DefaultCollectorGroupId Description }}</maml:para>
+            <maml:para>Specifies the default collector group ID for the device group.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -77240,7 +77525,7 @@ Updates the alert settings for the CPU Usage datapoint on the specified device.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DefaultCollectorId</maml:name>
           <maml:description>
-            <maml:para>{{ Fill DefaultCollectorId Description }}</maml:para>
+            <maml:para>Specifies the default collector ID for the device group.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -77252,7 +77537,7 @@ Updates the alert settings for the CPU Usage datapoint on the specified device.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DefaultAutoBalancedCollectorGroupId</maml:name>
           <maml:description>
-            <maml:para>{{ Fill DefaultAutoBalancedCollectorGroupId Description }}</maml:para>
+            <maml:para>Specifies the default auto-balanced collector group ID for the device group.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -77264,7 +77549,7 @@ Updates the alert settings for the CPU Usage datapoint on the specified device.<
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DefaultCollectorGroupId</maml:name>
           <maml:description>
-            <maml:para>{{ Fill DefaultCollectorGroupId Description }}</maml:para>
+            <maml:para>Specifies the default collector group ID for the device group.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
           <dev:type>
@@ -77445,7 +77730,7 @@ Updates the alert settings for the CPU Usage datapoint on the specified device.<
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>DefaultCollectorId</maml:name>
         <maml:description>
-          <maml:para>{{ Fill DefaultCollectorId Description }}</maml:para>
+          <maml:para>Specifies the default collector ID for the device group.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
         <dev:type>
@@ -77457,7 +77742,7 @@ Updates the alert settings for the CPU Usage datapoint on the specified device.<
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>DefaultAutoBalancedCollectorGroupId</maml:name>
         <maml:description>
-          <maml:para>{{ Fill DefaultAutoBalancedCollectorGroupId Description }}</maml:para>
+          <maml:para>Specifies the default auto-balanced collector group ID for the device group.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
         <dev:type>
@@ -77469,7 +77754,7 @@ Updates the alert settings for the CPU Usage datapoint on the specified device.<
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>DefaultCollectorGroupId</maml:name>
         <maml:description>
-          <maml:para>{{ Fill DefaultCollectorGroupId Description }}</maml:para>
+          <maml:para>Specifies the default collector group ID for the device group.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
         <dev:type>
@@ -83866,7 +84151,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>LMXToolBoxPermission</maml:name>
           <maml:description>
-            <maml:para>{{ Fill LMXToolBoxPermission Description }}</maml:para>
+            <maml:para>Specifies LMX ToolBox permissions. Valid values: "view", "manage", "commit", "publish", "none". Default is "none".</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -83878,7 +84163,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>LMXPermission</maml:name>
           <maml:description>
-            <maml:para>{{ Fill LMXPermission Description }}</maml:para>
+            <maml:para>Specifies LMX permissions. Valid values: "view", "install", "none". Default is "none".</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -83890,7 +84175,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>LogsPermission</maml:name>
           <maml:description>
-            <maml:para>{{ Fill LogsPermission Description }}</maml:para>
+            <maml:para>Specifies logs permissions. Valid values: "view", "manage", "none". Default is "none".</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -83902,7 +84187,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>WebsitesPermission</maml:name>
           <maml:description>
-            <maml:para>{{ Fill WebsitesPermission Description }}</maml:para>
+            <maml:para>Specifies websites permissions. Valid values: "view", "manage", "none". Default is "none".</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -83914,7 +84199,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>SavedMapsPermission</maml:name>
           <maml:description>
-            <maml:para>{{ Fill SavedMapsPermission Description }}</maml:para>
+            <maml:para>Specifies saved maps permissions. Valid values: "view", "manage", "none". Default is "none".</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -83926,7 +84211,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>ReportsPermission</maml:name>
           <maml:description>
-            <maml:para>{{ Fill ReportsPermission Description }}</maml:para>
+            <maml:para>Specifies reports permissions. Valid values: "view", "manage", "none". Default is "none".</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -83950,7 +84235,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>CreatePrivateDashboards</maml:name>
           <maml:description>
-            <maml:para>{{ Fill CreatePrivateDashboards Description }}</maml:para>
+            <maml:para>Indicates whether the role can create private dashboards.</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -83961,7 +84246,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>AllowWidgetSharing</maml:name>
           <maml:description>
-            <maml:para>{{ Fill AllowWidgetSharing Description }}</maml:para>
+            <maml:para>Indicates whether the role can share widgets.</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -83972,7 +84257,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>ConfigTabRequiresManagePermission</maml:name>
           <maml:description>
-            <maml:para>{{ Fill ConfigTabRequiresManagePermission Description }}</maml:para>
+            <maml:para>Indicates whether the config tab requires manage permission.</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -83983,7 +84268,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>AllowedToViewMapsTab</maml:name>
           <maml:description>
-            <maml:para>{{ Fill AllowedToViewMapsTab Description }}</maml:para>
+            <maml:para>Indicates whether the role is allowed to view the maps tab.</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -83994,7 +84279,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>AllowedToManageResourceDashboards</maml:name>
           <maml:description>
-            <maml:para>{{ Fill AllowedToManageResourceDashboards Description }}</maml:para>
+            <maml:para>Indicates whether the role is allowed to manage resource dashboards.</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -84005,7 +84290,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>ViewTraces</maml:name>
           <maml:description>
-            <maml:para>{{ Fill ViewTraces Description }}</maml:para>
+            <maml:para>Indicates whether the role can view traces.</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -84016,7 +84301,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>ViewSupport</maml:name>
           <maml:description>
-            <maml:para>{{ Fill ViewSupport Description }}</maml:para>
+            <maml:para>Indicates whether the role can view support options.</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -84027,7 +84312,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>EnableRemoteSessionForResources</maml:name>
           <maml:description>
-            <maml:para>{{ Fill EnableRemoteSessionForResources Description }}</maml:para>
+            <maml:para>Indicates whether remote sessions are enabled for resources.</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -84336,7 +84621,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>LMXToolBoxPermission</maml:name>
           <maml:description>
-            <maml:para>{{ Fill LMXToolBoxPermission Description }}</maml:para>
+            <maml:para>Specifies LMX ToolBox permissions. Valid values: "view", "manage", "commit", "publish", "none". Default is "none".</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -84348,7 +84633,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>LMXPermission</maml:name>
           <maml:description>
-            <maml:para>{{ Fill LMXPermission Description }}</maml:para>
+            <maml:para>Specifies LMX permissions. Valid values: "view", "install", "none". Default is "none".</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -84360,7 +84645,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>LogsPermission</maml:name>
           <maml:description>
-            <maml:para>{{ Fill LogsPermission Description }}</maml:para>
+            <maml:para>Specifies logs permissions. Valid values: "view", "manage", "none". Default is "none".</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -84372,7 +84657,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>WebsitesPermission</maml:name>
           <maml:description>
-            <maml:para>{{ Fill WebsitesPermission Description }}</maml:para>
+            <maml:para>Specifies websites permissions. Valid values: "view", "manage", "none". Default is "none".</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -84384,7 +84669,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>SavedMapsPermission</maml:name>
           <maml:description>
-            <maml:para>{{ Fill SavedMapsPermission Description }}</maml:para>
+            <maml:para>Specifies saved maps permissions. Valid values: "view", "manage", "none". Default is "none".</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -84396,7 +84681,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>ReportsPermission</maml:name>
           <maml:description>
-            <maml:para>{{ Fill ReportsPermission Description }}</maml:para>
+            <maml:para>Specifies reports permissions. Valid values: "view", "manage", "none". Default is "none".</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -84420,7 +84705,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>CreatePrivateDashboards</maml:name>
           <maml:description>
-            <maml:para>{{ Fill CreatePrivateDashboards Description }}</maml:para>
+            <maml:para>Indicates whether the role can create private dashboards.</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -84431,7 +84716,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>AllowWidgetSharing</maml:name>
           <maml:description>
-            <maml:para>{{ Fill AllowWidgetSharing Description }}</maml:para>
+            <maml:para>Indicates whether the role can share widgets.</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -84442,7 +84727,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>ConfigTabRequiresManagePermission</maml:name>
           <maml:description>
-            <maml:para>{{ Fill ConfigTabRequiresManagePermission Description }}</maml:para>
+            <maml:para>Indicates whether the config tab requires manage permission.</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -84453,7 +84738,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>AllowedToViewMapsTab</maml:name>
           <maml:description>
-            <maml:para>{{ Fill AllowedToViewMapsTab Description }}</maml:para>
+            <maml:para>Indicates whether the role is allowed to view the maps tab.</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -84464,7 +84749,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>AllowedToManageResourceDashboards</maml:name>
           <maml:description>
-            <maml:para>{{ Fill AllowedToManageResourceDashboards Description }}</maml:para>
+            <maml:para>Indicates whether the role is allowed to manage resource dashboards.</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -84475,7 +84760,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>ViewTraces</maml:name>
           <maml:description>
-            <maml:para>{{ Fill ViewTraces Description }}</maml:para>
+            <maml:para>Indicates whether the role can view traces.</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -84486,7 +84771,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>ViewSupport</maml:name>
           <maml:description>
-            <maml:para>{{ Fill ViewSupport Description }}</maml:para>
+            <maml:para>Indicates whether the role can view support options.</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -84497,7 +84782,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>EnableRemoteSessionForResources</maml:name>
           <maml:description>
-            <maml:para>{{ Fill EnableRemoteSessionForResources Description }}</maml:para>
+            <maml:para>Indicates whether remote sessions are enabled for resources.</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -84820,7 +85105,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>LMXToolBoxPermission</maml:name>
         <maml:description>
-          <maml:para>{{ Fill LMXToolBoxPermission Description }}</maml:para>
+          <maml:para>Specifies LMX ToolBox permissions. Valid values: "view", "manage", "commit", "publish", "none". Default is "none".</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -84832,7 +85117,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>LMXPermission</maml:name>
         <maml:description>
-          <maml:para>{{ Fill LMXPermission Description }}</maml:para>
+          <maml:para>Specifies LMX permissions. Valid values: "view", "install", "none". Default is "none".</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -84844,7 +85129,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>LogsPermission</maml:name>
         <maml:description>
-          <maml:para>{{ Fill LogsPermission Description }}</maml:para>
+          <maml:para>Specifies logs permissions. Valid values: "view", "manage", "none". Default is "none".</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -84856,7 +85141,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>WebsitesPermission</maml:name>
         <maml:description>
-          <maml:para>{{ Fill WebsitesPermission Description }}</maml:para>
+          <maml:para>Specifies websites permissions. Valid values: "view", "manage", "none". Default is "none".</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -84868,7 +85153,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>SavedMapsPermission</maml:name>
         <maml:description>
-          <maml:para>{{ Fill SavedMapsPermission Description }}</maml:para>
+          <maml:para>Specifies saved maps permissions. Valid values: "view", "manage", "none". Default is "none".</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -84880,7 +85165,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>ReportsPermission</maml:name>
         <maml:description>
-          <maml:para>{{ Fill ReportsPermission Description }}</maml:para>
+          <maml:para>Specifies reports permissions. Valid values: "view", "manage", "none". Default is "none".</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -84904,7 +85189,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>CreatePrivateDashboards</maml:name>
         <maml:description>
-          <maml:para>{{ Fill CreatePrivateDashboards Description }}</maml:para>
+          <maml:para>Indicates whether the role can create private dashboards.</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
         <dev:type>
@@ -84916,7 +85201,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>AllowWidgetSharing</maml:name>
         <maml:description>
-          <maml:para>{{ Fill AllowWidgetSharing Description }}</maml:para>
+          <maml:para>Indicates whether the role can share widgets.</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
         <dev:type>
@@ -84928,7 +85213,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>ConfigTabRequiresManagePermission</maml:name>
         <maml:description>
-          <maml:para>{{ Fill ConfigTabRequiresManagePermission Description }}</maml:para>
+          <maml:para>Indicates whether the config tab requires manage permission.</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
         <dev:type>
@@ -84940,7 +85225,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>AllowedToViewMapsTab</maml:name>
         <maml:description>
-          <maml:para>{{ Fill AllowedToViewMapsTab Description }}</maml:para>
+          <maml:para>Indicates whether the role is allowed to view the maps tab.</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
         <dev:type>
@@ -84952,7 +85237,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>AllowedToManageResourceDashboards</maml:name>
         <maml:description>
-          <maml:para>{{ Fill AllowedToManageResourceDashboards Description }}</maml:para>
+          <maml:para>Indicates whether the role is allowed to manage resource dashboards.</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
         <dev:type>
@@ -84964,7 +85249,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>ViewTraces</maml:name>
         <maml:description>
-          <maml:para>{{ Fill ViewTraces Description }}</maml:para>
+          <maml:para>Indicates whether the role can view traces.</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
         <dev:type>
@@ -84976,7 +85261,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>ViewSupport</maml:name>
         <maml:description>
-          <maml:para>{{ Fill ViewSupport Description }}</maml:para>
+          <maml:para>Indicates whether the role can view support options.</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
         <dev:type>
@@ -84988,7 +85273,7 @@ Updates the report group with ID 123 with a new name and description.</dev:code>
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>EnableRemoteSessionForResources</maml:name>
         <maml:description>
-          <maml:para>{{ Fill EnableRemoteSessionForResources Description }}</maml:para>
+          <maml:para>Indicates whether remote sessions are enabled for resources.</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
         <dev:type>
@@ -89089,7 +89374,7 @@ Set-LMUnmonitoredDevice -Ids @("123", "456") -DeviceGroupId 789 -Description "Ne
     </command:returnValues>
     <maml:alertSet>
       <maml:alert>
-        <maml:para>You must run Connect-LMAccount before invoking this cmdlet. Requests are issued to /device/devices/{id} with X-Version 3 and return LogicMonitor.LMUptimeDevice objects.</maml:para>
+        <maml:para>You must run Connect-LMAccount before invoking this cmdlet.</maml:para>
       </maml:alert>
     </maml:alertSet>
     <command:examples>
@@ -89272,7 +89557,7 @@ Set-LMUnmonitoredDevice -Ids @("123", "456") -DeviceGroupId 789 -Description "Ne
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>SmsEmail</maml:name>
           <maml:description>
-            <maml:para>{{ Fill SmsEmail Description }}</maml:para>
+            <maml:para>Specifies the SMS email address for the user.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -89284,7 +89569,7 @@ Set-LMUnmonitoredDevice -Ids @("123", "456") -DeviceGroupId 789 -Description "Ne
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>SmsEmailFormat</maml:name>
           <maml:description>
-            <maml:para>{{ Fill SmsEmailFormat Description }}</maml:para>
+            <maml:para>Specifies the SMS email format. Valid values: "sms", "fulltext".</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -89308,7 +89593,7 @@ Set-LMUnmonitoredDevice -Ids @("123", "456") -DeviceGroupId 789 -Description "Ne
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>Timezone</maml:name>
           <maml:description>
-            <maml:para>{{ Fill Timezone Description }}</maml:para>
+            <maml:para>Specifies the user's timezone. Must be a valid timezone string.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -89320,7 +89605,7 @@ Set-LMUnmonitoredDevice -Ids @("123", "456") -DeviceGroupId 789 -Description "Ne
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>TwoFAEnabled</maml:name>
           <maml:description>
-            <maml:para>{{ Fill TwoFAEnabled Description }}</maml:para>
+            <maml:para>Indicates whether two-factor authentication is enabled for the user.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Boolean</command:parameterValue>
           <dev:type>
@@ -89525,7 +89810,7 @@ Set-LMUnmonitoredDevice -Ids @("123", "456") -DeviceGroupId 789 -Description "Ne
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>SmsEmail</maml:name>
           <maml:description>
-            <maml:para>{{ Fill SmsEmail Description }}</maml:para>
+            <maml:para>Specifies the SMS email address for the user.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -89537,7 +89822,7 @@ Set-LMUnmonitoredDevice -Ids @("123", "456") -DeviceGroupId 789 -Description "Ne
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>SmsEmailFormat</maml:name>
           <maml:description>
-            <maml:para>{{ Fill SmsEmailFormat Description }}</maml:para>
+            <maml:para>Specifies the SMS email format. Valid values: "sms", "fulltext".</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -89561,7 +89846,7 @@ Set-LMUnmonitoredDevice -Ids @("123", "456") -DeviceGroupId 789 -Description "Ne
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>Timezone</maml:name>
           <maml:description>
-            <maml:para>{{ Fill Timezone Description }}</maml:para>
+            <maml:para>Specifies the user's timezone. Must be a valid timezone string.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -89573,7 +89858,7 @@ Set-LMUnmonitoredDevice -Ids @("123", "456") -DeviceGroupId 789 -Description "Ne
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>TwoFAEnabled</maml:name>
           <maml:description>
-            <maml:para>{{ Fill TwoFAEnabled Description }}</maml:para>
+            <maml:para>Indicates whether two-factor authentication is enabled for the user.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Boolean</command:parameterValue>
           <dev:type>
@@ -89790,7 +90075,7 @@ Set-LMUnmonitoredDevice -Ids @("123", "456") -DeviceGroupId 789 -Description "Ne
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>SmsEmail</maml:name>
         <maml:description>
-          <maml:para>{{ Fill SmsEmail Description }}</maml:para>
+          <maml:para>Specifies the SMS email address for the user.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -89802,7 +90087,7 @@ Set-LMUnmonitoredDevice -Ids @("123", "456") -DeviceGroupId 789 -Description "Ne
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>SmsEmailFormat</maml:name>
         <maml:description>
-          <maml:para>{{ Fill SmsEmailFormat Description }}</maml:para>
+          <maml:para>Specifies the SMS email format. Valid values: "sms", "fulltext".</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -89826,7 +90111,7 @@ Set-LMUnmonitoredDevice -Ids @("123", "456") -DeviceGroupId 789 -Description "Ne
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>Timezone</maml:name>
         <maml:description>
-          <maml:para>{{ Fill Timezone Description }}</maml:para>
+          <maml:para>Specifies the user's timezone. Must be a valid timezone string.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -89838,7 +90123,7 @@ Set-LMUnmonitoredDevice -Ids @("123", "456") -DeviceGroupId 789 -Description "Ne
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>TwoFAEnabled</maml:name>
         <maml:description>
-          <maml:para>{{ Fill TwoFAEnabled Description }}</maml:para>
+          <maml:para>Indicates whether two-factor authentication is enabled for the user.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Boolean</command:parameterValue>
         <dev:type>
@@ -90194,11 +90479,11 @@ Sets the user data for the user with Name "JohnDoe" for the dashboard with Id "6
       <command:verb>Set</command:verb>
       <command:noun>LMWebsite</command:noun>
       <maml:description>
-        <maml:para>Updates a LogicMonitor website monitoring configuration.</maml:para>
+        <maml:para>Updates a LogicMonitor website monitoring configuration with improved parameter validation.</maml:para>
       </maml:description>
     </command:details>
     <maml:description>
-      <maml:para>The Set-LMWebsite function modifies an existing website monitoring configuration in LogicMonitor.</maml:para>
+      <maml:para>The Set-LMWebsite function modifies an existing website monitoring configuration in LogicMonitor. It includes intelligent validation of test location parameters to ensure valid combinations are used.</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -90362,7 +90647,7 @@ Sets the user data for the user with Name "JohnDoe" for the dashboard with Id "6
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="alertExpr">
           <maml:name>SSLAlertThresholds</maml:name>
           <maml:description>
-            <maml:para>{{ Fill SSLAlertThresholds Description }}</maml:para>
+            <maml:para>Specifies the SSL alert thresholds for the website check. This is an alias for the alertExpr parameter.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String[]</command:parameterValue>
           <dev:type>
@@ -90482,7 +90767,7 @@ Sets the user data for the user with Name "JohnDoe" for the dashboard with Id "6
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>TestLocationCollectorIds</maml:name>
           <maml:description>
-            <maml:para>Array of collector IDs to use for testing. Cannot be used with TestLocationAll or TestLocationSmgIds.</maml:para>
+            <maml:para>Array of collector IDs to use for testing. Can only be used when IsInternal is true. Cannot be used with TestLocationAll or TestLocationSmgIds.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32[]</command:parameterValue>
           <dev:type>
@@ -90494,8 +90779,7 @@ Sets the user data for the user with Name "JohnDoe" for the dashboard with Id "6
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>TestLocationSmgIds</maml:name>
           <maml:description>
-            <maml:para>Array of collector group IDs to use for testing. Can only be used when IsInternal is false. Cannot be used with TestLocationAll or TestLocationCollectorIds.</maml:para>
-            <maml:para>Available collector group IDs correspond to LogicMonitor regions: - 2 = US - Washington DC</maml:para>
+            <maml:para>Array of collector group IDs to use for testing. Can only be used when IsInternal is false. Cannot be used with TestLocationAll or TestLocationCollectorIds. Available collector group IDs correspond to LogicMonitor regions: - 2 = US - Washington DC</maml:para>
             <maml:para>- 3 = Europe - Dublin</maml:para>
             <maml:para>- 4 = US - Oregon</maml:para>
             <maml:para>- 5 = Asia - Singapore</maml:para>
@@ -90788,7 +91072,7 @@ Sets the user data for the user with Name "JohnDoe" for the dashboard with Id "6
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>TestLocationCollectorIds</maml:name>
           <maml:description>
-            <maml:para>Array of collector IDs to use for testing. Cannot be used with TestLocationAll or TestLocationSmgIds.</maml:para>
+            <maml:para>Array of collector IDs to use for testing. Can only be used when IsInternal is true. Cannot be used with TestLocationAll or TestLocationSmgIds.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">Int32[]</command:parameterValue>
           <dev:type>
@@ -90800,8 +91084,7 @@ Sets the user data for the user with Name "JohnDoe" for the dashboard with Id "6
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>TestLocationSmgIds</maml:name>
           <maml:description>
-            <maml:para>Array of collector group IDs to use for testing. Can only be used when IsInternal is false. Cannot be used with TestLocationAll or TestLocationCollectorIds.</maml:para>
-            <maml:para>Available collector group IDs correspond to LogicMonitor regions: - 2 = US - Washington DC</maml:para>
+            <maml:para>Array of collector group IDs to use for testing. Can only be used when IsInternal is false. Cannot be used with TestLocationAll or TestLocationCollectorIds. Available collector group IDs correspond to LogicMonitor regions: - 2 = US - Washington DC</maml:para>
             <maml:para>- 3 = Europe - Dublin</maml:para>
             <maml:para>- 4 = US - Oregon</maml:para>
             <maml:para>- 5 = Asia - Singapore</maml:para>
@@ -91022,7 +91305,7 @@ Sets the user data for the user with Name "JohnDoe" for the dashboard with Id "6
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="alertExpr">
         <maml:name>SSLAlertThresholds</maml:name>
         <maml:description>
-          <maml:para>{{ Fill SSLAlertThresholds Description }}</maml:para>
+          <maml:para>Specifies the SSL alert thresholds for the website check. This is an alias for the alertExpr parameter.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String[]</command:parameterValue>
         <dev:type>
@@ -91178,7 +91461,7 @@ Sets the user data for the user with Name "JohnDoe" for the dashboard with Id "6
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>TestLocationCollectorIds</maml:name>
         <maml:description>
-          <maml:para>Array of collector IDs to use for testing. Cannot be used with TestLocationAll or TestLocationSmgIds.</maml:para>
+          <maml:para>Array of collector IDs to use for testing. Can only be used when IsInternal is true. Cannot be used with TestLocationAll or TestLocationSmgIds.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Int32[]</command:parameterValue>
         <dev:type>
@@ -91190,8 +91473,7 @@ Sets the user data for the user with Name "JohnDoe" for the dashboard with Id "6
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>TestLocationSmgIds</maml:name>
         <maml:description>
-          <maml:para>Array of collector group IDs to use for testing. Can only be used when IsInternal is false. Cannot be used with TestLocationAll or TestLocationCollectorIds.</maml:para>
-          <maml:para>Available collector group IDs correspond to LogicMonitor regions: - 2 = US - Washington DC</maml:para>
+          <maml:para>Array of collector group IDs to use for testing. Can only be used when IsInternal is false. Cannot be used with TestLocationAll or TestLocationCollectorIds. Available collector group IDs correspond to LogicMonitor regions: - 2 = US - Washington DC</maml:para>
           <maml:para>- 3 = Europe - Dublin</maml:para>
           <maml:para>- 4 = US - Oregon</maml:para>
           <maml:para>- 5 = Asia - Singapore</maml:para>
@@ -91263,7 +91545,7 @@ Sets the user data for the user with Name "JohnDoe" for the dashboard with Id "6
     </command:returnValues>
     <maml:alertSet>
       <maml:alert>
-        <maml:para>This function requires a valid LogicMonitor API authentication.</maml:para>
+        <maml:para>This function requires a valid LogicMonitor API authentication. It enforces strict validation rules for TestLocation parameters to prevent invalid combinations.</maml:para>
       </maml:alert>
     </maml:alertSet>
     <command:examples>
@@ -91271,6 +91553,14 @@ Sets the user data for the user with Name "JohnDoe" for the dashboard with Id "6
         <maml:title>-------------------------- EXAMPLE 1 --------------------------</maml:title>
         <dev:code>Set-LMWebsite -Id 123 -Name "Updated Site" -Description "New description" -DisableAlerting $false
 Updates the website with new name, description, and enables alerting.</dev:code>
+        <dev:remarks>
+          <maml:para></maml:para>
+        </dev:remarks>
+      </command:example>
+      <command:example>
+        <maml:title>-------------------------- EXAMPLE 2 --------------------------</maml:title>
+        <dev:code>Set-LMWebsite -Id 123 -TestLocationAll $true
+Updates the website to test from all locations.</dev:code>
         <dev:remarks>
           <maml:para></maml:para>
         </dev:remarks>
